@@ -135,15 +135,15 @@ export default function ProjectsPage() {
 
       <section className="py-16 lg:py-24 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap gap-2 mb-12 justify-center">
+          <div className="flex gap-2 mb-8 overflow-x-auto pb-2 justify-center md:justify-center scrollbar-hide">
             {categories.map((cat) => (
               <button
                 key={cat.key}
                 onClick={() => setActiveCategory(cat.key)}
-                className={`px-4 py-2.5 rounded-lg text-sm font-medium transition-all ${
+                className={`px-4 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all whitespace-nowrap flex-shrink-0 ${
                   activeCategory === cat.key
                     ? "bg-jmoto-red text-white"
-                    : "bg-jmoto-charcoal text-white/70 hover:bg-jmoto-grey/50 hover:text-white"
+                    : "bg-jmoto-charcoal text-white/70 hover:bg-jmoto-grey/50 hover:text-white border border-jmoto-grey/30"
                 }`}
               >
                 {cat.label}
@@ -152,7 +152,7 @@ export default function ProjectsPage() {
           </div>
 
           {displayImages.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-3 md:gap-4">
               {displayImages.map((img, index) => {
                 const categoryImages = activeCategory === "all"
                   ? galleryData[img.category]
@@ -163,7 +163,7 @@ export default function ProjectsPage() {
                 return (
                   <div
                     key={`${img.category}-${index}`}
-                    className={`group relative aspect-[4/3] rounded-xl overflow-hidden bg-jmoto-charcoal border border-jmoto-grey/30 cursor-pointer ${isShocking ? "project-shock" : ""}`}
+                    className={`group relative aspect-square rounded-xl overflow-hidden bg-jmoto-charcoal border-2 border-transparent cursor-pointer hover:border-jmoto-red/60 transition-all duration-200 ${isShocking ? "project-shock" : "hover:shadow-lg hover:shadow-jmoto-red/20"}`}
                     onClick={() => openLightbox(categoryImages, categoryIndex, img.category, index)}
                     role="button"
                     tabIndex={0}
@@ -174,23 +174,17 @@ export default function ProjectsPage() {
                       src={img.src}
                       alt={`${categoryLabels[img.category]} project`}
                       fill
-                      className={`object-cover transition-transform duration-500 group-hover:scale-105 ${isShocking ? "scale-110" : ""}`}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className={`object-cover transition-transform duration-300 group-hover:scale-110 ${isShocking ? "scale-110" : ""}`}
+                      sizes="(max-width: 640px) 33vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
                     />
                     {isShocking && (
                       <div className="absolute inset-0 project-shock-overlay" />
                     )}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/30">
-                      <div className="w-12 h-12 rounded-full bg-black/60 border border-white/30 flex items-center justify-center">
-                        <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black/40">
+                      <div className="w-8 h-8 rounded-full bg-black/70 border border-white/20 flex items-center justify-center">
+                        <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
                         </svg>
-                      </div>
-                    </div>
-                    <div className="absolute inset-0 flex items-end p-4">
-                      <div>
-                        <p className="text-white font-medium text-sm">{categoryLabels[img.category]}</p>
                       </div>
                     </div>
                   </div>
