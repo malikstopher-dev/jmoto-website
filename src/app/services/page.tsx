@@ -58,7 +58,7 @@ export default function ServicesPage() {
       <section className="py-16 lg:py-24 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.map((service, index) => (
+            {services.map((service) => (
               <Link
                 key={service.title}
                 href={service.href}

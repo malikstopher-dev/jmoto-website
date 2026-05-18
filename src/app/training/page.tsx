@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
 import PageBanner, { CTASection } from "@/components/PageComponents";
 import { useLanguage } from "@/lib/LanguageContext";
 

@@ -19,15 +19,19 @@ const LanguageContext = createContext<LanguageContextType>({
   isHydrated: false,
 });
 
+function getInitialLanguage(): Language {
+  if (typeof window === "undefined") return "en";
+  const savedLang = localStorage.getItem("jmoto-language");
+  if (savedLang === "en" || savedLang === "pt") return savedLang;
+  return "en";
+}
+
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>("en");
   const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
-    const savedLang = localStorage.getItem("jmoto-language") as Language;
-    if (savedLang && (savedLang === "en" || savedLang === "pt")) {
-      setLanguageState(savedLang);
-    }
+    setLanguageState(getInitialLanguage());
     setIsHydrated(true);
   }, []);
 

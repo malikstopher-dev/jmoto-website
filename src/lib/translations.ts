@@ -36,6 +36,8 @@ export const translations = {
     services: {
       title: "Our Services",
       subtitle: "Professional solutions for electrical, solar, CCTV, inverter and battery needs.",
+      viewGallery: "View Gallery",
+      close: "Close",
       electrical: {
         title: "Electrical",
         description: "Professional electrical installations, maintenance and fault finding for homes, businesses and industrial sites.",
@@ -228,6 +230,8 @@ export const translations = {
     projects: {
       bannerSubtitle: "Completed work across electrical, solar, CCTV and battery solutions",
       category: "Category",
+      all: "All",
+      imagesShowing: "images showing",
       electrical: "Electrical",
       solar: "Solar",
       cctv: "CCTV",
@@ -342,6 +346,8 @@ export const translations = {
     services: {
       title: "Os Nossos Serviços",
       subtitle: "Soluções profissionais para necessidades de eletricidade, solar, CCTV, inversores e baterias.",
+      viewGallery: "Ver Galeria",
+      close: "Fechar",
       electrical: {
         title: "Eletricidade",
         description: "Instalações elétricas profissionais, manutenção e detecção de falhas para casas, empresas e locais industriais.",
@@ -534,6 +540,8 @@ export const translations = {
     projects: {
       bannerSubtitle: "Trabalhos concluídos em eletricidade, solar, CCTV e soluções de baterias",
       category: "Categoria",
+      all: "Todos",
+      imagesShowing: "imagens",
       electrical: "Eletricidade",
       solar: "Solar",
       cctv: "CCTV",

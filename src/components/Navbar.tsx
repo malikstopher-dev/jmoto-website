@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useLanguage } from "@/lib/LanguageContext";
-import { Language } from "@/lib/translations";
 
 const services = [
   { nameKey: "nav.electricalServices" as const, href: "/services/electrical" },

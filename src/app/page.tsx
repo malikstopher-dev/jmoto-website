@@ -5,6 +5,7 @@ import Link from "next/link";
 import ServiceCard from "@/components/ServiceCard";
 import { CTASection } from "@/components/PageComponents";
 import { useLanguage } from "@/lib/LanguageContext";
+import { galleryData, serviceToGalleryMap } from "@/lib/galleryData";
 
 export default function Home() {
   const { t } = useLanguage();
@@ -15,36 +16,42 @@ export default function Home() {
       description: t.services.electrical.description,
       href: "/services/electrical",
       image: "/services/JMOTO_Service_Electrical.png",
+      galleryKey: "electrical",
     },
     {
       title: t.services.solar.title,
       description: t.services.solar.description,
       href: "/services/solar",
       image: "/services/JMOTO_Service_Solar_Solutions.png",
+      galleryKey: "solar",
     },
     {
       title: t.services.cctv.title,
       description: t.services.cctv.description,
       href: "/services/cctv",
       image: "/services/JMOTO_Service_CCTV_Systems.png",
+      galleryKey: "cctv",
     },
     {
       title: t.services.inverter.title,
       description: t.services.inverter.description,
       href: "/services/inverter",
       image: "/services/JMOTO_Service_Inverter_Solutions.png",
+      galleryKey: "inverter",
     },
     {
       title: t.services.battery.title,
       description: t.services.battery.description,
       href: "/services/battery",
       image: "/services/JMOTO_Service_Battery_Solutions.png",
+      galleryKey: "battery",
     },
     {
       title: t.services.training.title,
       description: t.services.training.description,
       href: "/training",
       image: "/banners/JMOTO_Banner_Training_Centre.png",
+      galleryKey: "training",
     },
   ];
 
@@ -166,15 +173,21 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
-            {services.map((service) => (
-              <ServiceCard
-                key={service.title}
-                title={service.title}
-                description={service.description}
-                href={service.href}
-                image={service.image}
-              />
-            ))}
+            {services.map((service) => {
+              const galleryKey = service.galleryKey as keyof typeof galleryData;
+              const galleryImages = galleryData[galleryKey] || [];
+              return (
+                <ServiceCard
+                  key={service.title}
+                  title={service.title}
+                  description={service.description}
+                  href={service.href}
+                  image={service.image}
+                  galleryImages={galleryImages}
+                  galleryTitle={service.title}
+                />
+              );
+            })}
           </div>
         </div>
       </section>
