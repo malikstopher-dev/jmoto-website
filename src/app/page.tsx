@@ -83,10 +83,10 @@ export default function Home() {
               <div className="lg:col-span-5 order-2 lg:order-1">
                 <div className="max-w-lg mx-auto lg:mx-0 lg:pr-4">
                   <div className="w-10 h-1 bg-jmoto-red mb-6" />
-                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.08] tracking-tight max-w-[580px]" style={{ fontFamily: 'var(--font-heading)' }}>
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.08] tracking-tight max-w-[620px]" style={{ fontFamily: 'var(--font-heading)' }}>
                     <span>{t.hero.headlineLine1}</span>
                     <br />
-                    <span className="text-jmoto-red">{t.hero.headlineRed}</span>
+                    <span>{t.hero.headlineRed}</span>
                     <br />
                     <span>{t.hero.headlineLine2}</span>
                   </h1>
