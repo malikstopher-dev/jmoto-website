@@ -16,6 +16,7 @@ export const translations = {
       cctvSystems: "CCTV Systems",
       inverterSolutions: "Inverter Solutions",
       batterySolutions: "Battery Solutions",
+      electronicsSupply: "Electronics & Electrical Supply",
     },
     hero: {
       headlineLine1: "Reliable Electrical,",
@@ -56,6 +57,10 @@ export const translations = {
       battery: {
         title: "Batteries",
         description: "Battery backup solutions, testing, replacement and performance checks.",
+      },
+      electronicsSupply: {
+        title: "Electronics & Electrical Supply",
+        description: "Quality electrical materials, components, accessories and supply support for homes, businesses and project sites.",
       },
       training: {
         title: "Training",
@@ -195,6 +200,33 @@ export const translations = {
         performance: "Performance checks",
         capacity: "Capacity testing",
       },
+      electronicsSupply: {
+        title: "Electronics & Electrical Supply",
+        subtitle: "Electrical materials, switches, plugs, cables, breakers, lighting, accessories and related supply support for installations and maintenance work.",
+        heading: "Electrical Materials Supply",
+        description: "JMOTO supplies electrical materials and accessories for installations, repairs, maintenance and project work. We help clients source the right materials for electrical, solar, CCTV, inverter and battery work.",
+        cables: "Cables and wiring",
+        plugs: "Plugs and switches",
+        dbComponents: "Distribution board components",
+        breakers: "Circuit breakers",
+        lighting: "Lighting and LED products",
+        accessories: "Electrical accessories",
+        cctvAccessories: "CCTV and installation accessories",
+        solarAccessories: "Solar and inverter accessories",
+        tools: "Basic tools and testing items where available",
+        projectSupport: "Project-based supply support",
+        sourceHelp: "We help clients source the right materials",
+        clientSupport: "Clients can send photos, lists or project details for quotation support",
+        practicalAdvice: "Practical advice",
+        projectBasedSupply: "Project-based supply",
+        electricalSolarKnowledge: "Electrical and solar knowledge",
+        clearQuotations: "Clear quotations",
+        saMozambiqueSupport: "South Africa and Mozambique support",
+        needMaterialsTitle: "Need materials for your project?",
+        needMaterialsDesc: "Send us your list, photos or site requirements and we will help prepare a clear quotation.",
+        requestSupplyQuote: "Request Supply Quote",
+        whatsappUs: "WhatsApp Us",
+      },
     },
     training: {
       bannerSubtitle: "Practical skills training in electrical, solar, inverter and battery systems.",
@@ -309,6 +341,13 @@ export const translations = {
       preferredContact: "Preferred contact",
     },
     prefilledMessage: `Hello JMOTO Electrical Services, I would like to request a quotation.`,
+    electronicsSupplyPrefilledMessage: `Hello JMOTO Electrical Services, I would like a quotation for electronics and electrical supply.
+
+Name:
+Location:
+Items needed:
+Quantity:
+Project details:`,
   },
   pt: {
     nav: {
@@ -325,6 +364,7 @@ export const translations = {
       cctvSystems: "Sistemas CCTV",
       inverterSolutions: "Soluções de Inversores",
       batterySolutions: "Soluções de Baterias",
+      electronicsSupply: "Fornecimento Elétrico e Eletrónico",
     },
     hero: {
       headlineLine1: "Serviços Elétricos Fiáveis,",
@@ -365,6 +405,10 @@ export const translations = {
       battery: {
         title: "Baterias",
         description: "Soluções de energia de reserva, testes, substituição e verificação de desempenho de baterias.",
+      },
+      electronicsSupply: {
+        title: "Fornecimento Elétrico e Eletrónico",
+        description: "Materiais elétricos, componentes, acessórios e apoio de fornecimento de qualidade para casas, empresas e projetos.",
       },
       training: {
         title: "Formação",
@@ -504,6 +548,33 @@ export const translations = {
         performance: "Verificações de desempenho",
         capacity: "Testes de capacidade",
       },
+      electronicsSupply: {
+        title: "Fornecimento Elétrico e Eletrónico",
+        subtitle: "Materiais elétricos, interruptores, tomadas, cabos, disjuntores, iluminação, acessórios e apoio de fornecimento relacionado para instalações e trabalhos de manutenção.",
+        heading: "Fornecimento de Materiais Elétricos",
+        description: "A JMOTO fornece materiais e acessórios elétricos para instalações, reparações, manutenção e trabalhos de projeto. Ajudamos clientes a encontrar os materiais certos para trabalhos elétricos, solares, CCTV, inversores e baterias.",
+        cables: "Cabos e fios elétricos",
+        plugs: "Tomadas e interruptores",
+        dbComponents: "Componentes para quadros elétricos",
+        breakers: "Disjuntores",
+        lighting: "Iluminação e produtos LED",
+        accessories: "Acessórios elétricos",
+        cctvAccessories: "Acessórios para CCTV e instalação",
+        solarAccessories: "Acessórios para solar e inversores",
+        tools: "Ferramentas básicas e itens de teste quando disponíveis",
+        projectSupport: "Apoio de fornecimento por projeto",
+        sourceHelp: "Ajudamos clientes a encontrar os materiais certos",
+        clientSupport: "Os clientes podem enviar fotos, listas ou detalhes do projeto para apoio no orçamento",
+        practicalAdvice: "Aconselhamento prático",
+        projectBasedSupply: "Fornecimento por projeto",
+        electricalSolarKnowledge: "Conhecimento elétrico e solar",
+        clearQuotations: "Orçamentos claros",
+        saMozambiqueSupport: "Apoio na África do Sul e Moçambique",
+        needMaterialsTitle: "Precisa de materiais para o seu projeto?",
+        needMaterialsDesc: "Envie a sua lista, fotos ou requisitos do local e ajudaremos a preparar um orçamento claro.",
+        requestSupplyQuote: "Pedir Orçamento de Materiais",
+        whatsappUs: "WhatsApp",
+      },
     },
     training: {
       bannerSubtitle: "Formação de competências práticas em sistemas elétricos, solares, inversores e baterias.",
@@ -618,6 +689,13 @@ export const translations = {
       preferredContact: "Contacto preferido",
     },
     prefilledMessage: `Olá JMOTO Electrical Services, gostaria de solicitar um orçamento.`,
+    electronicsSupplyPrefilledMessage: `Olá JMOTO Electrical Services, gostaria de pedir um orçamento para fornecimento elétrico e eletrónico.
+
+Nome:
+Localização:
+Itens necessários:
+Quantidade:
+Detalhes do projeto:`,
   },
 } as const;
 

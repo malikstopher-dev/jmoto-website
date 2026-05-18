@@ -11,6 +11,7 @@ const services = [
   { nameKey: "nav.cctvSystems" as const, href: "/services/cctv" },
   { nameKey: "nav.inverterSolutions" as const, href: "/services/inverter" },
   { nameKey: "nav.batterySolutions" as const, href: "/services/battery" },
+  { nameKey: "nav.electronicsSupply" as const, href: "/electronics-supply" },
 ];
 
 export default function Navbar() {
@@ -34,6 +35,7 @@ export default function Navbar() {
       t.nav.cctvSystems,
       t.nav.inverterSolutions,
       t.nav.batterySolutions,
+      t.nav.electronicsSupply,
     ];
     return names[index] || services[index].nameKey;
   };

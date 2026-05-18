@@ -47,6 +47,13 @@ export default function Home() {
       galleryKey: "battery",
     },
     {
+      title: t.services.electronicsSupply.title,
+      description: t.services.electronicsSupply.description,
+      href: "/electronics-supply",
+      image: "/services/JMOTO_Electronics_Supply_Square_Promo.png",
+      galleryKey: "electronicsSupply",
+    },
+    {
       title: t.services.training.title,
       description: t.services.training.description,
       href: "/training",

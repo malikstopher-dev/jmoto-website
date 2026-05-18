@@ -40,6 +40,12 @@ export default function ServicesPage() {
       image: "/services/JMOTO_Service_Battery_Solutions.png",
     },
     {
+      title: t.services.electronicsSupply.title,
+      description: t.services.electronicsSupply.description,
+      href: "/electronics-supply",
+      image: "/services/JMOTO_Electronics_Supply_Square_Promo.png",
+    },
+    {
       title: t.services.training.title,
       description: t.services.training.description,
       href: "/training",

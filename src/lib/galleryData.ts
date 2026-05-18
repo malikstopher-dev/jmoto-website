@@ -143,6 +143,7 @@ export const galleryData: Record<string, string[]> = {
     "/gallery/training/WhatsApp%20Image%202026-05-17%20at%2021.23.47%20(3).jpeg",
     "/gallery/training/WhatsApp%20Image%202026-05-17%20at%2021.23.47.jpeg",
   ],
+  electronicsSupply: [],
 };
 
 export const serviceToGalleryMap: Record<string, keyof typeof galleryData> = {
@@ -152,4 +153,5 @@ export const serviceToGalleryMap: Record<string, keyof typeof galleryData> = {
   inverter: "inverter",
   battery: "battery",
   training: "training",
+  electronicsSupply: "electronicsSupply",
 };
