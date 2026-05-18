@@ -82,11 +82,15 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-4 items-center">
               <div className="lg:col-span-5 order-2 lg:order-1">
                 <div className="max-w-lg mx-auto lg:mx-0 lg:pr-4">
-                  <div className="w-12 h-1 bg-jmoto-red mb-6" />
-                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4">
-                    {t.hero.headline} <span className="text-jmoto-red">{t.hero.headlineSolar}</span>, <span className="text-jmoto-red">{t.hero.headlineCCTV}</span> & <span className="text-jmoto-red">{t.hero.headlineServices}</span>
+                  <div className="w-10 h-1 bg-jmoto-red mb-6" />
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.08] tracking-tight max-w-[580px]" style={{ fontFamily: 'var(--font-heading)' }}>
+                    <span>{t.hero.headlineLine1}</span>
+                    <br />
+                    <span className="text-jmoto-red">{t.hero.headlineRed}</span>
+                    <br />
+                    <span>{t.hero.headlineLine2}</span>
                   </h1>
-                  <p className="text-white/50 text-sm sm:text-base lg:text-lg leading-relaxed mb-6">
+                  <p className="text-white/50 text-sm sm:text-base lg:text-lg leading-relaxed mb-6 mt-6">
                     {t.hero.subheadline}
                   </p>
                   <div className="flex flex-col sm:flex-row flex-wrap gap-3">
