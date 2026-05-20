@@ -119,6 +119,12 @@ export default function Navbar() {
             </div>
 
             <Link
+              href="/electronics-supply#items-on-sale"
+              className="text-white/80 hover:text-white transition-colors text-sm font-medium"
+            >
+              {t.nav.shop}
+            </Link>
+            <Link
               href="/projects"
               className="text-white/80 hover:text-white transition-colors text-sm font-medium"
             >
@@ -256,6 +262,13 @@ export default function Navbar() {
               </Link>
             ))}
 
+            <Link
+              href="/electronics-supply#items-on-sale"
+              className="block px-4 py-3 text-white/80 hover:text-white hover:bg-jmoto-grey rounded transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {t.nav.shop}
+            </Link>
             <Link
               href="/projects"
               className="block px-4 py-3 text-white/80 hover:text-white hover:bg-jmoto-grey rounded transition-colors"

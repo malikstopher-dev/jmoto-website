@@ -17,6 +17,7 @@ export const translations = {
       inverterSolutions: "Inverter Solutions",
       batterySolutions: "Battery Solutions",
       electronicsSupply: "Electronics & Electrical Supply",
+      shop: "Shop",
     },
     hero: {
       headlineLine1: "Reliable Electrical,",
@@ -348,6 +349,90 @@ Location:
 Items needed:
 Quantity:
 Project details:`,
+    electronicsSupply: {
+      heroTitle: "Electronics & Electrical Supply",
+      heroSubtitle: "Quality electrical materials, components and accessories for homes, businesses and project sites.",
+      ctaRequestQuote: "Request a Supply Quote",
+      ctaWhatsApp: "WhatsApp Us",
+      introTitle: "Electrical Materials, Components & Accessories",
+      introDescription: "JMOTO supplies practical electrical and electronics items for installations, repairs, maintenance, solar support, CCTV work and general project needs.",
+      saleSectionTitle: "Items Currently on Sale",
+      saleSectionSubtitle: "Quality products available for order. Contact us to check stock and pricing.",
+      onSaleBadge: "On Sale",
+      orderViaWhatsApp: "Order via WhatsApp",
+      priceOnRequest: "Price on request",
+      statusAvailable: "Available",
+      statusAvailableOnRequest: "Available on request",
+      paymentDetailsTitle: "Payment Details",
+      paymentBankName: "Bank",
+      paymentAccountName: "Account Name",
+      paymentAccountNumber: "Account Number",
+      paymentBranchCode: "Branch Code",
+      paymentNote: "Please confirm stock and final amount with JMOTO before making payment.",
+      paymentReference: "Use your quotation/order reference as payment reference.",
+      requestSupplyTitle: "Need electrical materials for your project?",
+      requestSupplyDesc: "Send your item list, photos, quantities or project details and JMOTO will assist with a clear supply quotation.",
+      requestSupplyButton: "Request Supply Quote",
+      products: {
+        andowlPowerBank: {
+          name: "Andowl 58000mAh Power Bank",
+          category: "Electronics",
+          description: "High-capacity portable power bank for charging phones, small devices and USB-powered accessories. Ideal for backup power during travel, work or load-shedding.",
+          price: "R450",
+          status: "Available",
+        },
+        powerBank: {
+          name: "Power Bank",
+          category: "Electronics",
+          description: "Portable backup power for phones and small devices.",
+        },
+        memoryCard: {
+          name: "Memory Card",
+          category: "Electronics",
+          description: "Storage cards for cameras, phones and devices.",
+        },
+        plugs: {
+          name: "Plugs & Adaptors",
+          category: "Electrical Accessories",
+          description: "Practical plugs and adaptors for home and project use.",
+        },
+        switches: {
+          name: "Switches & Sockets",
+          category: "Electrical Accessories",
+          description: "Switches, sockets and outlet accessories.",
+        },
+        ledBulbs: {
+          name: "LED Bulbs",
+          category: "Lighting",
+          description: "Energy-saving lighting products for homes and businesses.",
+        },
+        cables: {
+          name: "Cables & Wiring",
+          category: "Electrical Materials",
+          description: "Cable and wiring support for installations and repairs.",
+        },
+        circuitBreakers: {
+          name: "Circuit Breakers",
+          category: "Electrical Materials",
+          description: "Circuit protection and distribution components.",
+        },
+        cctvAccessories: {
+          name: "CCTV Accessories",
+          category: "Security Accessories",
+          description: "CCTV installation accessories and components.",
+        },
+        solarAccessories: {
+          name: "Solar/Inverter Accessories",
+          category: "Solar & Power",
+          description: "Solar and inverter system accessories and components.",
+        },
+        extensionLeads: {
+          name: "Extension Leads",
+          category: "Electrical Accessories",
+          description: "Extension leads and power distribution options.",
+        },
+      },
+    },
   },
   pt: {
     nav: {
@@ -365,6 +450,7 @@ Project details:`,
       inverterSolutions: "Soluções de Inversores",
       batterySolutions: "Soluções de Baterias",
       electronicsSupply: "Fornecimento Elétrico e Eletrónico",
+      shop: "Loja",
     },
     hero: {
       headlineLine1: "Serviços Elétricos Fiáveis,",
@@ -696,6 +782,90 @@ Localização:
 Itens necessários:
 Quantidade:
 Detalhes do projeto:`,
+    electronicsSupply: {
+      heroTitle: "Fornecimento Elétrico e Eletrónico",
+      heroSubtitle: "Materiais elétricos, componentes e acessórios de qualidade para casas, empresas e projetos.",
+      ctaRequestQuote: "Pedir Orçamento de Materiais",
+      ctaWhatsApp: "WhatsApp",
+      introTitle: "Materiais Elétricos, Componentes e Acessórios",
+      introDescription: "A JMOTO fornece materiais elétricos e eletrónicos para instalações, reparações, manutenção, apoio solar, CCTV e necessidades gerais de projetos.",
+      saleSectionTitle: "Itens Atualmente em Promoção",
+      saleSectionSubtitle: "Produtos de qualidade disponíveis para encomenda. Contacte-nos para verificar stock e preços.",
+      onSaleBadge: "Em Promoção",
+      orderViaWhatsApp: "Encomendar pelo WhatsApp",
+      priceOnRequest: "Preço sob consulta",
+      statusAvailable: "Disponível",
+      statusAvailableOnRequest: "Disponível sob consulta",
+      paymentDetailsTitle: "Dados de Pagamento",
+      paymentBankName: "Banco",
+      paymentAccountName: "Nome da Conta",
+      paymentAccountNumber: "Número da Conta",
+      paymentBranchCode: "Código da Agência",
+      paymentNote: "Por favor confirme o stock e o valor final com a JMOTO antes de efectuar o pagamento.",
+      paymentReference: "Use a sua referência de orçamento/encomenda como referência de pagamento.",
+      requestSupplyTitle: "Precisa de materiais elétricos para o seu projeto?",
+      requestSupplyDesc: "Envie a sua lista de itens, fotos, quantidades ou detalhes do projeto e a JMOTO ajudará com um orçamento claro de fornecimento.",
+      requestSupplyButton: "Pedir Orçamento de Materiais",
+      products: {
+        andowlPowerBank: {
+          name: "Power Bank Andowl 58000mAh",
+          category: "Eletrónica",
+          description: "Power bank portátil de alta capacidade para carregar telemóveis, pequenos dispositivos e acessórios USB. Ideal para energia de reserva em viagens, trabalho ou cortes de energia.",
+          price: "R450",
+          status: "Disponível",
+        },
+        powerBank: {
+          name: "Power Bank",
+          category: "Eletrónica",
+          description: "Carregador portátil de backup para telemóveis e pequenos dispositivos.",
+        },
+        memoryCard: {
+          name: "Cartão de Memória",
+          category: "Eletrónica",
+          description: "Cartões de armazenamento para câmaras, telemóveis e dispositivos.",
+        },
+        plugs: {
+          name: "Fichas e Adaptadores",
+          category: "Acessórios Elétricos",
+          description: "Fichas práticas e adaptadores para uso doméstico e de projetos.",
+        },
+        switches: {
+          name: "Interruptores e Tomadas",
+          category: "Acessórios Elétricos",
+          description: "Interruptores, tomadas e acessórios de saída.",
+        },
+        ledBulbs: {
+          name: "Lâmpadas LED",
+          category: "Iluminação",
+          description: "Produtos de iluminação económica para casas e empresas.",
+        },
+        cables: {
+          name: "Cabos e Fios",
+          category: "Materiais Elétricos",
+          description: "Cabos e fios para instalações e reparações.",
+        },
+        circuitBreakers: {
+          name: "Disjuntores",
+          category: "Materiais Elétricos",
+          description: "Componentes de proteção e distribuição de circuitos.",
+        },
+        cctvAccessories: {
+          name: "Acessórios CCTV",
+          category: "Acessórios de Segurança",
+          description: "Acessórios e componentes para instalação de CCTV.",
+        },
+        solarAccessories: {
+          name: "Acessórios Solar/Inversor",
+          category: "Solar e Energia",
+          description: "Acessórios e componentes para sistemas solares e inversores.",
+        },
+        extensionLeads: {
+          name: "Extensões",
+          category: "Acessórios Elétricos",
+          description: "Extensões e opções de distribuição de energia.",
+        },
+      },
+    },
   },
 } as const;
 
