@@ -1,4 +1,4 @@
-import { Language } from "./LanguageContext";
+import { Language } from "./translations";
 
 const METICAI_PER_ZAR = 4;
 
