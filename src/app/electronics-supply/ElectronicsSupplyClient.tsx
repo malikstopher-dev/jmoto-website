@@ -6,12 +6,13 @@ import { useState } from "react";
 import PageBanner, { CTASection } from "@/components/PageComponents";
 import GalleryLightbox from "@/components/GalleryLightbox";
 import { useLanguage } from "@/lib/LanguageContext";
+import { formatPrice } from "@/lib/formatPrice";
 
 const saleProducts = [
   {
     key: "andowlPowerBank",
     icon: "🔋",
-    price: "R450",
+    priceZar: 450,
     images: ["/gallery/sale/andowl-58000-power-bank-01.jpg", "/gallery/sale/andowl-58000-power-bank-02.jpg"],
   },
   { key: "powerBank", icon: "⚡" },
@@ -40,9 +41,7 @@ export default function ElectronicsSupplyClient() {
 
       <IntroSection t={t} />
 
-      <SaleSection t={t} isPortuguese={isPortuguese} />
-
-      <PaymentDetailsSection t={t} />
+      <SaleSection t={t} isPortuguese={isPortuguese} language={language} />
 
       <RequestSupplySection t={t} />
 
@@ -110,7 +109,7 @@ function IntroSection({ t }: { t: any }) {
   );
 }
 
-function SaleSection({ t, isPortuguese }: { t: any; isPortuguese: boolean }) {
+function SaleSection({ t, isPortuguese, language }: { t: any; isPortuguese: boolean; language: "en" | "pt" }) {
   const baseWhatsAppUrl = "https://wa.me/27737928655";
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxImages, setLightboxImages] = useState<string[]>([]);
@@ -161,7 +160,8 @@ Delivery/Collection preference:`;
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {saleProducts.map((product) => {
             const productData = (t.electronicsSupply.products as any)[product.key];
-            const displayPrice = product.price || productData.price || t.electronicsSupply.priceOnRequest;
+            const hasPrice = product.priceZar || productData.priceZar;
+            const displayPrice = hasPrice ? formatPrice(hasPrice, language) : t.electronicsSupply.priceOnRequest;
             const displayStatus = productData.status || (
               productData.category?.includes("Electronics") || productData.category === "Eletrónica"
                 ? t.electronicsSupply.statusAvailableOnRequest
@@ -224,7 +224,7 @@ Delivery/Collection preference:`;
                     {productData.description}
                   </p>
                   <div className="flex items-center justify-between mb-4">
-                    {product.price || productData.price ? (
+                    {hasPrice ? (
                       <span className="text-white font-bold text-lg">{displayPrice}</span>
                     ) : (
                       <span className="text-white/70 text-sm">{displayPrice}</span>
@@ -256,48 +256,6 @@ Delivery/Collection preference:`;
         isOpen={lightboxOpen}
         onClose={() => setLightboxOpen(false)}
       />
-    </section>
-  );
-}
-
-function PaymentDetailsSection({ t }: { t: any }) {
-  return (
-    <section className="py-12 bg-black">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-2xl mx-auto">
-          <div className="bg-jmoto-charcoal border border-jmoto-grey/30 rounded-xl p-6 md:p-8">
-            <h3 className="text-xl font-bold text-white mb-6 text-center">
-              {t.electronicsSupply.paymentDetailsTitle}
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-              <div className="p-4 bg-black/30 rounded-lg">
-                <p className="text-white/50 text-xs mb-1">{t.electronicsSupply.paymentBankName}</p>
-                <p className="text-white font-semibold">FNB</p>
-              </div>
-              <div className="p-4 bg-black/30 rounded-lg">
-                <p className="text-white/50 text-xs mb-1">{t.electronicsSupply.paymentBranchCode}</p>
-                <p className="text-white font-semibold">250655</p>
-              </div>
-              <div className="p-4 bg-black/30 rounded-lg md:col-span-2">
-                <p className="text-white/50 text-xs mb-1">{t.electronicsSupply.paymentAccountName}</p>
-                <p className="text-white font-semibold">JMOTO Electrical Services PTY</p>
-              </div>
-              <div className="p-4 bg-black/30 rounded-lg md:col-span-2">
-                <p className="text-white/50 text-xs mb-1">{t.electronicsSupply.paymentAccountNumber}</p>
-                <p className="text-white font-semibold text-lg">63077444304</p>
-              </div>
-            </div>
-            <div className="border-t border-jmoto-grey/30 pt-4">
-              <p className="text-white/60 text-sm mb-2">
-                <span className="text-jmoto-red font-medium">*</span> {t.electronicsSupply.paymentNote}
-              </p>
-              <p className="text-white/50 text-sm">
-                {t.electronicsSupply.paymentReference}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
   );
 }

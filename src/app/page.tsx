@@ -81,8 +81,34 @@ export default function Home() {
   return (
     <>
       <section className="relative bg-black overflow-hidden" style={{ minHeight: "calc(100vh - 72px)" }}>
-        <div className="absolute top-0 left-0 w-96 h-96 bg-jmoto-red/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
-        <div className="absolute bottom-0 right-0 w-64 h-64 bg-jmoto-red/3 rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
+        <div className="hero-grid-overlay" />
+        <div className="hero-glow" />
+        <div className="hero-particles">
+          {Array.from({ length: 9 }).map((_, i) => (
+            <div
+              key={i}
+              className="hero-particle"
+              style={{
+                left: `${10 + i * 10}%`,
+                animationDelay: `${i * 0.8}s`,
+              }}
+            />
+          ))}
+        </div>
+        {[0, 1, 2, 3].map((i) => (
+          <div
+            key={i}
+            className="hero-lightning"
+            style={{
+              left: `${15 + i * 20}%`,
+              animationDelay: `${i * 2}s`,
+            }}
+          />
+        ))}
+        <div className="hero-bg-parallax">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-jmoto-red/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute bottom-0 right-0 w-64 h-64 bg-jmoto-red/3 rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
+        </div>
 
         <div className="relative z-10 h-full flex items-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-16 lg:py-12">

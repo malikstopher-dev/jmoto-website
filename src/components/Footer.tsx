@@ -155,7 +155,7 @@ export default function Footer() {
               JMOTO Electrical Services (PTY) Ltd | Enterprise: 2023/694137/07 | IT: 9541573201
             </p>
             <p className="text-center text-white/30 text-xs">
-              Website by <a href="https://stopher-malik.co.za/" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-jmoto-red transition-colors">Stopher Malik</a>
+              Website by <a href="https://stopher-malik.co.za/" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-jmoto-red transition-colors">Stopher Malik</a> &amp; <a href="https://smk.stopher-malik.co.za/" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-jmoto-red transition-colors">SMK Web Design</a>
             </p>
           </div>
         </div>
