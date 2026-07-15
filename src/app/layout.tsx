@@ -3,6 +3,7 @@ import { LanguageProvider } from "@/lib/LanguageContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SiteEffects from "@/components/SiteEffects";
+import EnergyGridOverlay from "@/components/layout/EnergyGridOverlay";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -166,6 +167,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <Footer />
           <SiteEffects />
+          <EnergyGridOverlay />
         </LanguageProvider>
       </body>
     </html>
