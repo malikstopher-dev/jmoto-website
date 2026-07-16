@@ -13,7 +13,11 @@ const saleProducts = [
     key: "andowlPowerBank",
     icon: "🔋",
     priceZar: 450,
-    images: ["/shop-images/Power Banks.png"],
+    images: [
+      "/gallery/sale/andowl-58000-promo.png",
+      "/gallery/sale/andowl-58000-power-bank-01.jpg",
+      "/gallery/sale/andowl-58000-power-bank-02.jpg",
+    ],
   },
   { key: "powerBank", icon: "⚡", images: ["/shop-images/Power Banks.png"] },
   { key: "memoryCard", icon: "💾", images: ["/shop-images/Memory Cards.png"] },

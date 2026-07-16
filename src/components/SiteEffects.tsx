@@ -129,11 +129,11 @@ export default function SiteEffects() {
     });
 
     // ========================================
-    // PAGE LOAD FLASH
+    // PAGE LOAD FLASH (handled by PageTransition component)
     // ========================================
-    const loadTimeout = setTimeout(() => {
-      triggerElectricFlash();
-    }, 300);
+    // const loadTimeout = setTimeout(() => {
+    //   triggerElectricFlash();
+    // }, 300);
 
     // ========================================
     // PARALLAX
@@ -155,7 +155,7 @@ export default function SiteEffects() {
       document.removeEventListener("click", handleClick);
       window.removeEventListener("scroll", checkReveal);
       window.removeEventListener("scroll", handleParallax);
-      clearTimeout(loadTimeout);
+
     };
   }, []);
 

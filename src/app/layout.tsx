@@ -3,6 +3,7 @@ import { LanguageProvider } from "@/lib/LanguageContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SiteEffects from "@/components/SiteEffects";
+import PageTransition from "@/components/PageTransition";
 import EnergyGridOverlay from "@/components/layout/EnergyGridOverlay";
 import "./globals.css";
 
@@ -167,6 +168,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <Footer />
           <SiteEffects />
+          <PageTransition />
           <EnergyGridOverlay />
         </LanguageProvider>
       </body>
