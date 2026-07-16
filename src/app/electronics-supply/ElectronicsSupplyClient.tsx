@@ -14,7 +14,7 @@ const saleProducts = [
     icon: "🔋",
     priceZar: 450,
     images: [
-      "/gallery/sale/andowl-58000-promo.png",
+      "/shop-images/ANDOWL 58000mAh POWER BANK.png",
       "/gallery/sale/andowl-58000-power-bank-01.jpg",
       "/gallery/sale/andowl-58000-power-bank-02.jpg",
     ],
