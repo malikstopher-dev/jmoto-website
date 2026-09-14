@@ -1,0 +1,20 @@
+OPENCODE / MIMO IMPLEMENTATION PROMPT — JMOTO ASSET PACK V5
+
+Mission: replace the current/old website imagery with the corrected V5 assets in this dist folder. Do not change JMOTO's verified service scope.
+
+1) Audit current routes and map them to 08_docs_and_prompts/ASSET_MAP.txt.
+2) Remove references to obsolete V4 imagery for import/export, web design, automated gates, access control, smart home and IT/network.
+3) Implement responsive heroes with <picture>:
+   - mobile source from /02_hero_mobile at max-width: 767px
+   - desktop source from /01_hero_desktop
+   - never crop desktop hero as the only mobile solution
+4) Use /03_service_cards only for the seven verified service cards: electrical, solar, CCTV, inverter, battery, electronics/electrical supply, training.
+5) Build the Projects gallery from /05_gallery_enhanced_webp with filters: All, Electrical, Solar, Inverter, Training.
+6) For Electronics & Electrical Supply, use its dedicated hero, service card and supply showroom support image.
+7) For Shop / items on sale, use hero-shop-sale, shop-gadgets, and the ten category cards in /04_shop_supply_cards. Do not imply a generated item is a stocked SKU unless the product data confirms it.
+8) Keep all titles, CTAs, prices, phone numbers, EN/PT translations and SEO copy as live HTML.
+9) Use existing official JMOTO logo from the repository only.
+10) Performance: WebP, lazy-load below fold, explicit width/height, preload only current hero, avoid duplicate background downloads.
+11) QA manually on real pages at desktop ~1440px and mobile ~390px. Verify each route, image crop, nav, gallery filter, shop/supply area and CTA. Tests/build passing alone is not verification.
+
+Deliverable: report changed files, route-to-asset mapping, before/after screenshots for desktop+mobile, and any blocker.

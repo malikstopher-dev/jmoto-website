@@ -1,0 +1,25 @@
+OLD V4 PACK AUDIT
+
+The old V4 asset pack contained several service categories not present in the current JMOTO website. Those assets have intentionally NOT been copied into this corrected distribution pack.
+
+Excluded old categories:
+- hero/service import-export
+- hero/service web-design
+- hero/service automated-gates
+- hero/service access-control
+- hero/service smart-home
+- hero/service IT-network
+
+Retained conceptually where still valid:
+- electrical
+- solar
+- CCTV/security (CCTV only; do not broaden into alarms/access control)
+- backup power, now split correctly into inverter + battery
+- training
+- general about/projects/contact support principles
+
+This corrected pack adds missing verified areas:
+- Inverter Solutions
+- Battery Solutions
+- Electronics & Electrical Supply
+- Shop / electronic gadgets and electrical accessories

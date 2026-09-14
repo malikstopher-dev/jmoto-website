@@ -23,7 +23,8 @@ export default function BatteryPage() {
       <PageBanner
         title={t.servicesPage.battery.title}
         subtitle={t.servicesPage.battery.subtitle}
-        image="/services/JMOTO_Service_Battery_Solutions.png"
+        desktopImage="/assets/01_hero_desktop/hero-battery-desktop.webp"
+        mobileImage="/assets/02_hero_mobile/hero-battery-mobile.webp"
       />
 
       <section className="py-16 lg:py-24 bg-black">
@@ -50,10 +51,10 @@ export default function BatteryPage() {
             </div>
             <div className="relative">
               <Image
-                src="/services/JMOTO_Service_Battery_Solutions.png"
+                src="/assets/03_service_cards/service-battery.webp"
                 alt={t.servicesPage.battery.title}
                 width={600}
-                height={500}
+                height={400}
                 className="rounded-xl w-full border border-jmoto-grey/30"
               />
             </div>

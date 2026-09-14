@@ -23,7 +23,8 @@ export default function InverterPage() {
       <PageBanner
         title={t.servicesPage.inverter.title}
         subtitle={t.servicesPage.inverter.subtitle}
-        image="/services/JMOTO_Service_Inverter_Solutions.png"
+        desktopImage="/assets/01_hero_desktop/hero-inverter-desktop.webp"
+        mobileImage="/assets/02_hero_mobile/hero-inverter-mobile.webp"
       />
 
       <section className="py-16 lg:py-24 bg-black">
@@ -50,10 +51,10 @@ export default function InverterPage() {
             </div>
             <div className="relative">
               <Image
-                src="/services/JMOTO_Service_Inverter_Solutions.png"
+                src="/assets/03_service_cards/service-inverter.webp"
                 alt={t.servicesPage.inverter.title}
                 width={600}
-                height={500}
+                height={400}
                 className="rounded-xl w-full border border-jmoto-grey/30"
               />
             </div>

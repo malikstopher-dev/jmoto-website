@@ -13,43 +13,43 @@ export default function ServicesPage() {
       title: t.services.electrical.title,
       description: t.services.electrical.description,
       href: "/services/electrical",
-      image: "/services/JMOTO_Service_Electrical.png",
+      image: "/assets/03_service_cards/service-electrical.webp",
     },
     {
       title: t.services.solar.title,
       description: t.services.solar.description,
       href: "/services/solar",
-      image: "/services/JMOTO_Service_Solar_Solutions.png",
+      image: "/assets/03_service_cards/service-solar.webp",
     },
     {
       title: t.services.cctv.title,
       description: t.services.cctv.description,
       href: "/services/cctv",
-      image: "/services/JMOTO_Service_CCTV_Systems.png",
+      image: "/assets/03_service_cards/service-cctv.webp",
     },
     {
       title: t.services.inverter.title,
       description: t.services.inverter.description,
       href: "/services/inverter",
-      image: "/services/JMOTO_Service_Inverter_Solutions.png",
+      image: "/assets/03_service_cards/service-inverter.webp",
     },
     {
       title: t.services.battery.title,
       description: t.services.battery.description,
       href: "/services/battery",
-      image: "/services/JMOTO_Service_Battery_Solutions.png",
+      image: "/assets/03_service_cards/service-battery.webp",
     },
     {
       title: t.services.electronicsSupply.title,
       description: t.services.electronicsSupply.description,
       href: "/electronics-supply",
-      image: "/services/JMOTO_Electronics_Supply_Square_Promo.png",
+      image: "/assets/03_service_cards/service-electronics-electrical-supply.webp",
     },
     {
       title: t.services.training.title,
       description: t.services.training.description,
       href: "/training",
-      image: "/banners/JMOTO_Banner_Training_Centre.png",
+      image: "/assets/03_service_cards/service-training.webp",
     },
   ];
 
@@ -58,7 +58,7 @@ export default function ServicesPage() {
       <PageBanner
         title={t.nav.services}
         subtitle={t.servicesPage.bannerSubtitle}
-        image="/promo/JMOTO_Services_Banner.png"
+        image="/assets/06_support_images/home-overview.webp"
       />
 
       <section className="py-16 lg:py-24 bg-black">

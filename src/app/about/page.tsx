@@ -12,7 +12,8 @@ export default function AboutPage() {
       <PageBanner
         title={t.nav.aboutUs}
         subtitle={t.about.bannerSubtitle}
-        image="/banners/JMOTO_Banner_About_Us.png"
+        desktopImage="/assets/01_hero_desktop/hero-about-desktop.webp"
+        mobileImage="/assets/02_hero_mobile/hero-about-mobile.webp"
       />
 
       <section className="py-16 lg:py-24 bg-black">
@@ -34,10 +35,10 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/promo/JMOTO_Brand_Promo_Square.png"
+                src="/assets/06_support_images/about-company.webp"
                 alt="JMOTO Electrical Services"
                 width={600}
-                height={600}
+                height={400}
                 className="rounded-xl w-full"
               />
             </div>

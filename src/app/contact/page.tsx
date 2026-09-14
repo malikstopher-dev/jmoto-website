@@ -12,7 +12,8 @@ export default function ContactPage() {
       <PageBanner
         title={t.nav.contact}
         subtitle={t.contact.bannerSubtitle}
-        image="/banners/JMOTO_Banner_Contact_Us.png"
+        desktopImage="/assets/01_hero_desktop/hero-contact-desktop.webp"
+        mobileImage="/assets/02_hero_mobile/hero-contact-mobile.webp"
       />
 
       <section className="py-16 lg:py-24 bg-black">

@@ -22,7 +22,8 @@ export default function SolarPage() {
       <PageBanner
         title={t.servicesPage.solar.title}
         subtitle={t.servicesPage.solar.subtitle}
-        image="/services/JMOTO_Service_Solar_Solutions.png"
+        desktopImage="/assets/01_hero_desktop/hero-solar-desktop.webp"
+        mobileImage="/assets/02_hero_mobile/hero-solar-mobile.webp"
       />
 
       <section className="py-16 lg:py-24 bg-black">
@@ -49,10 +50,10 @@ export default function SolarPage() {
             </div>
             <div className="relative">
               <Image
-                src="/services/JMOTO_Service_Solar_Solutions.png"
+                src="/assets/03_service_cards/service-solar.webp"
                 alt={t.servicesPage.solar.title}
                 width={600}
-                height={500}
+                height={400}
                 className="rounded-xl w-full border border-jmoto-grey/30"
               />
             </div>

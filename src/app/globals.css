@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap');
 
 @import "tailwindcss";
 
 :root {
   --background: #000000;
   --foreground: #ffffff;
-  --jmoto-red: #DC2626;
+  --jmoto-red: #E10600;
+  --jmoto-red-bright: #FF2A20;
   --jmoto-red-dark: #B91C1C;
-  --jmoto-black: #0a0a0a;
+  --jmoto-black: #0B0B0B;
+  --jmoto-graphite: #1A1A1A;
+  --jmoto-steel: #333333;
   --jmoto-charcoal: #171717;
   --jmoto-grey: #27272A;
   --jmoto-grey-light: #3f3f46;
@@ -17,11 +20,15 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-jmoto-red: var(--jmoto-red);
+  --color-jmoto-red-bright: var(--jmoto-red-bright);
   --color-jmoto-red-dark: var(--jmoto-red-dark);
   --color-jmoto-black: var(--jmoto-black);
+  --color-jmoto-graphite: var(--jmoto-graphite);
+  --color-jmoto-steel: var(--jmoto-steel);
   --color-jmoto-charcoal: var(--jmoto-charcoal);
   --color-jmoto-grey: var(--jmoto-grey);
   --color-jmoto-grey-light: var(--jmoto-grey-light);
+  --font-display: 'Barlow Condensed', sans-serif;
   --font-heading: 'Sora', sans-serif;
   --font-body: 'Manrope', sans-serif;
 }
@@ -38,6 +45,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Manrope', sans-serif;
+}
+
+.font-display {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -26,7 +26,8 @@ export default function ElectricalPage() {
       <PageBanner
         title={t.servicesPage.electrical.title}
         subtitle={t.servicesPage.electrical.subtitle}
-        image="/services/JMOTO_Service_Electrical.png"
+        desktopImage="/assets/01_hero_desktop/hero-electrical-desktop.webp"
+        mobileImage="/assets/02_hero_mobile/hero-electrical-mobile.webp"
       />
 
       <section className="py-16 lg:py-24 bg-black">
@@ -53,10 +54,10 @@ export default function ElectricalPage() {
             </div>
             <div className="relative">
               <Image
-                src="/services/JMOTO_Service_Electrical.png"
+                src="/assets/03_service_cards/service-electrical.webp"
                 alt={t.servicesPage.electrical.title}
                 width={600}
-                height={500}
+                height={400}
                 className="rounded-xl w-full border border-jmoto-grey/30"
               />
             </div>

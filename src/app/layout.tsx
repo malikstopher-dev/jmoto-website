@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import SiteEffects from "@/components/SiteEffects";
 import PageTransition from "@/components/PageTransition";
 import EnergyGridOverlay from "@/components/layout/EnergyGridOverlay";
+import UtilityBar from "@/components/UtilityBar";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
     description: "Professional electrical services, solar installations, CCTV systems, inverter support, battery backup solutions and technical training in South Africa and Mozambique.",
     images: [
       {
-        url: "/banners/JMOTO_Website_Hero_Main.png",
+        url: "/assets/01_hero_desktop/hero-home-desktop.webp",
         width: 1920,
         height: 1080,
         alt: "JMOTO Electrical Services"
@@ -61,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "JMOTO Electrical Services | Electrical, Solar, CCTV & Inverter Services",
     description: "Professional electrical services, solar installations, CCTV systems, inverter support and training.",
-    images: ["/banners/JMOTO_Website_Hero_Main.png"]
+    images: ["/assets/01_hero_desktop/hero-home-desktop.webp"]
   },
   robots: {
     index: true,
@@ -85,7 +86,7 @@ const jsonLd = {
       "email": ["jqmmoto@gmail.com", "jmario.moto@gmail.com"],
       "enterpriseNumber": "2023/694137/07",
       "taxId": "9541573201",
-      "image": "https://jmoto.co.za/banners/JMOTO_Website_Hero_Main.png",
+      "image": "https://jmoto.co.za/assets/01_hero_desktop/hero-home-desktop.webp",
       "address": [
         {
           "@type": "PostalAddress",
@@ -168,8 +169,9 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col antialiased">
         <LanguageProvider>
+          <UtilityBar />
           <Navbar />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 pt-[calc(32px+64px)] lg:pt-[calc(32px+80px)]">{children}</main>
           <Footer />
           <SiteEffects />
           <PageTransition />

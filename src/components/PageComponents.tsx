@@ -6,10 +6,14 @@ interface PageBannerProps {
   title: string;
   subtitle?: string;
   image?: string;
+  desktopImage?: string;
+  mobileImage?: string;
   minHeight?: string;
 }
 
-export default function PageBanner({ title, subtitle, image, minHeight = "min-h-[480px] lg:min-h-[540px]" }: PageBannerProps) {
+export default function PageBanner({ title, subtitle, image, desktopImage, mobileImage, minHeight = "min-h-[480px] lg:min-h-[540px]" }: PageBannerProps) {
+  const hasDualImages = desktopImage && mobileImage;
+
   return (
     <section className={`relative bg-black overflow-hidden ${minHeight}`}>
       <div className="absolute top-0 left-0 w-96 h-96 bg-jmoto-red/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
@@ -33,18 +37,38 @@ export default function PageBanner({ title, subtitle, image, minHeight = "min-h-
             </div>
 
             <div className="lg:col-span-7 order-1 lg:order-2">
-              {image && (
+              {(hasDualImages || image) && (
                 <div className="relative max-w-xl mx-auto lg:ml-auto">
                   <div className="absolute -inset-3 bg-gradient-to-r from-jmoto-red/15 to-transparent rounded-3xl blur-xl" />
                   <div className="relative bg-black/80 border border-jmoto-red/30 rounded-2xl overflow-hidden">
                     <div className="relative aspect-[16/10]">
-                      <Image
-                        src={image}
-                        alt={title}
-                        fill
-                        className="object-contain p-4 lg:p-6"
-                        sizes="(max-width: 1024px) 100vw, 58vw"
-                      />
+                      {hasDualImages ? (
+                        <picture>
+                          <source
+                            media="(max-width: 767px)"
+                            srcSet={mobileImage}
+                          />
+                          <source
+                            media="(min-width: 768px)"
+                            srcSet={desktopImage}
+                          />
+                          <Image
+                            src={desktopImage}
+                            alt={title}
+                            fill
+                            className="object-contain p-4 lg:p-6"
+                            sizes="(max-width: 1024px) 100vw, 58vw"
+                          />
+                        </picture>
+                      ) : (
+                        <Image
+                          src={image!}
+                          alt={title}
+                          fill
+                          className="object-contain p-4 lg:p-6"
+                          sizes="(max-width: 1024px) 100vw, 58vw"
+                        />
+                      )}
                     </div>
                   </div>
                 </div>

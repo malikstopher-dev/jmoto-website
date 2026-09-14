@@ -1,0 +1,55 @@
+HOME
+hero-home-desktop.webp / hero-home-mobile.webp
+
+SOLAR
+hero-solar-desktop.webp / hero-solar-mobile.webp
+service-solar.webp
+
+BACKUP / INVERTER / BATTERY
+hero-backup-desktop.webp / hero-backup-mobile.webp
+service-backup-power.webp
+
+ELECTRICAL
+hero-electrical-desktop.webp / hero-electrical-mobile.webp
+service-electrical.webp
+
+CCTV / SECURITY
+hero-security-desktop.webp / hero-security-mobile.webp
+service-cctv-security.webp
+
+AUTOMATED GATES
+hero-gates-desktop.webp / hero-gates-mobile.webp
+service-automated-gates.webp
+
+ACCESS CONTROL
+hero-access-desktop.webp / hero-access-mobile.webp
+service-access-control.webp
+
+SMART HOME
+hero-smart-home-desktop.webp / hero-smart-home-mobile.webp
+service-smart-home.webp
+
+IT / NETWORK
+hero-it-network-desktop.webp / hero-it-network-mobile.webp
+service-it-network.webp
+
+IMPORT / EXPORT
+hero-import-export-desktop.webp / hero-import-export-mobile.webp
+service-import-export.webp
+
+WEB DESIGN
+hero-web-design-desktop.webp / hero-web-design-mobile.webp
+service-web-design.webp
+
+ABOUT / PROJECTS / CONTACT
+hero-about-*.webp / about-bg.webp / about-support.webp
+projects-bg.webp / projects-support.webp
+hero-contact-*.webp / contact-bg.webp / contact-support.webp
+
+AFRICA / DRC
+hero-africa-desktop.webp / hero-africa-mobile.webp
+africa-map.webp / coverage-support.webp
+
+TRAINING / MAINTENANCE
+service-training.webp / training-support.webp
+service-maintenance.webp

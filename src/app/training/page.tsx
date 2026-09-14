@@ -21,7 +21,8 @@ export default function TrainingPage() {
       <PageBanner
         title={t.nav.training}
         subtitle={t.training.bannerSubtitle}
-        image="/banners/JMOTO_Banner_Training_Centre.png"
+        desktopImage="/assets/01_hero_desktop/hero-training-desktop.webp"
+        mobileImage="/assets/02_hero_mobile/hero-training-mobile.webp"
       />
 
       <section className="py-16 lg:py-24 bg-black">

@@ -1,0 +1,9 @@
+NON-NEGOTIABLE ASSET IMPLEMENTATION RULE
+
+Use images from this pack ONLY as media/backgrounds.
+Do NOT recreate headline text inside images.
+Do NOT use any old poster image containing baked-in words.
+Do NOT crop desktop poster artwork to make mobile heroes.
+Use the supplied /02_hero_mobile files for mobile.
+Use live HTML/CSS for headings, CTA labels, nav labels and translations.
+Use the official JMOTO logo already in the project; do not generate a replacement.

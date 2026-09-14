@@ -23,7 +23,8 @@ export default function CCTVPape() {
       <PageBanner
         title={t.servicesPage.cctv.title}
         subtitle={t.servicesPage.cctv.subtitle}
-        image="/services/JMOTO_Service_CCTV_Systems.png"
+        desktopImage="/assets/01_hero_desktop/hero-cctv-desktop.webp"
+        mobileImage="/assets/02_hero_mobile/hero-cctv-mobile.webp"
       />
 
       <section className="py-16 lg:py-24 bg-black">
@@ -50,10 +51,10 @@ export default function CCTVPape() {
             </div>
             <div className="relative">
               <Image
-                src="/services/JMOTO_Service_CCTV_Systems.png"
+                src="/assets/03_service_cards/service-cctv.webp"
                 alt={t.servicesPage.cctv.title}
                 width={600}
-                height={500}
+                height={400}
                 className="rounded-xl w-full border border-jmoto-grey/30"
               />
             </div>

@@ -1,0 +1,258 @@
+JMOTO ELECTRICAL SERVICES — MIMO MASTER UPGRADE MISSION
+
+ROLE
+You are the primary implementation engineer and senior digital art director. Upgrade the EXISTING repository in place. Do not replace it with a disconnected template. Audit first, then implement.
+
+REPOSITORY / CURRENT SITE
+- Repository: https://github.com/malikstopher-dev/jmoto-website
+- Live: https://jmoto-website.vercel.app/
+- Existing stack is Next.js 16 + React 19 + TypeScript + Tailwind 4, with GSAP and @gsap/react already installed.
+- Preserve existing working routes, project gallery content, contact data, shop functionality, bilingual capability, and SEO value unless there is a documented reason to refactor.
+
+NON-NEGOTIABLE BRAND RULES
+1. Company: JMOTO Electrical Services (PTY) Ltd.
+2. Official slogan is EXACTLY: “We’ll keep you bright.”
+3. Never replace it with “Powering a Brighter Tomorrow”, “Powering People Everyday”, “We will keep you bright”, or any other slogan.
+4. Site is bilingual: English + Portuguese.
+5. Portuguese must be professional neutral Portuguese appropriate for Mozambique. Do not use conspicuously Brazilian marketing wording.
+6. Keep the official slogan in English in the brand lockup in BOTH languages.
+7. Geographic positioning: South Africa + Mozambique.
+8. Visual identity must be uniquely JMOTO: industrial black, red, white, brushed steel, electrical-energy details. Do NOT make it a recoloured clone of another site.
+
+SOURCE OF TRUTH / VERIFIED INFORMATION
+Current public site shows:
+- SA phone: 073 792 8655
+- SA address: 1761 Sikhethile Street, Likole, GP
+- Mozambique: +258 5627 6827
+- Mozambique location: Condene, Moamba
+- Email: jqmmoto@gmail.com
+- Alternative quote email currently shown: jmario.moto@gmail.com
+- Enterprise: 2023/694137/07
+- IT: 9541573201
+- Services: Electrical, Solar, CCTV, Inverters, Batteries, Electronics & Electrical Supply, Training
+Do not invent client counts, “500+ projects”, qualifications, certificates, warranties, years in business, 24/7 support, testimonials or other claims unless repository evidence supports them.
+
+FIRST PHASE — AUDIT BEFORE EDITING
+Before changing code:
+- Inspect app/src structure and routing.
+- Identify locale implementation and EN/PT dictionaries/content.
+- Identify shared layout/header/footer/components.
+- Identify all live routes and dynamic routes.
+- Inspect project gallery image loading and category filters.
+- Inspect Shop and whether it is functional or placeholder.
+- Inspect quote form and WhatsApp behaviour.
+- Inspect SEO metadata, sitemap, robots, structured data and canonical/hreflang handling.
+- Inspect current performance and image strategy. next.config currently has images.unoptimized=true; decide whether it is safe to improve this without breaking deployment.
+- Inspect current GSAP usage and animation cleanup.
+- Record a short pre-implementation report.
+
+DESIGN GOAL
+Create an international-level premium industrial technology website. It should feel closer to a top electrical/energy engineering company than a local brochure template.
+
+ART DIRECTION
+- Near-black backgrounds, restrained JMOTO red (#E10600 / #FF2A20), white, graphite and steel.
+- Red is an accent and energy signal, not a flood fill on every component.
+- Use cinematic contrast, controlled grain/noise, subtle radial glows, thin steel borders and layered depth.
+- Hero and service imagery should use the supplied TEXT-FREE assets in this pack whenever possible.
+- Reference posters are ART DIRECTION only. Never place poster artwork containing baked-in headings as a full responsive website section when live HTML text should be used.
+- Keep real text as semantic HTML for responsiveness, SEO and translation.
+
+TYPOGRAPHY
+- Strong condensed display font for selected headings; modern neutral sans for UI/body.
+- Maintain WCAG-readable sizes/contrast.
+- Avoid gigantic headings that destroy mobile layout.
+
+HOMEPAGE
+Build the page in this order:
+A. Slim utility bar
+- South Africa contact
+- Mozambique contact
+- EN / PT switch
+
+B. Sticky glass/metal navigation
+- Logo
+- Home / About / Services / Projects / Training / Service Areas / Shop / Contact
+- Get a Quote CTA
+- Desktop mega-menu or polished dropdown for services
+- Mobile full-screen menu with locale switch and quick contact
+
+C. Full-viewport cinematic hero
+EN:
+Eyebrow: ELECTRICAL · SOLAR · CCTV · BACKUP POWER
+H1: Power Built for Real Life.
+Body: Professional electrical, solar, CCTV, inverter and battery solutions for homes, businesses and industries across South Africa and Mozambique.
+Buttons: Get a Quote / Explore Services
+Brand line visible: We’ll keep you bright.
+
+PT:
+Eyebrow: ELETRICIDADE · SOLAR · CCTV · ENERGIA DE RESERVA
+H1: Energia preparada para a vida real.
+Body: Soluções profissionais de eletricidade, energia solar, CCTV, inversores e baterias para residências, empresas e indústrias na África do Sul e em Moçambique.
+Buttons: Pedir Cotação / Explorar Serviços
+Brand line remains: We’ll keep you bright.
+
+D. Service media rail/grid
+- Electrical
+- Solar
+- CCTV & Security
+- Inverters
+- Batteries
+- Electronics & Electrical Supply
+- Maintenance & Repairs
+- Training
+Use supplied text-free service imagery. Card motion should be premium: image mask reveal, red energy trace, subtle tilt on pointer devices, clear focus state.
+
+E. INTERACTIVE “POWER FLOW” SECTION
+Visual explanation of how a typical system works:
+Solar -> Inverter -> Battery -> Distribution -> Home/Business
+Use animated SVG power lines tied to scroll progress. Allow user to hover/tap nodes for short descriptions. Must work without WebGL.
+
+F. WHY JMOTO
+Use only verified statements from the existing site: registered company, clear quotations, site assessment, electrical/solar knowledge, SA & Mozambique coverage, practical training. Do NOT invent metrics.
+
+G. PROJECTS
+The current project page contains many real images across Electrical, Solar, CCTV, Inverters, Batteries and Training. Keep and improve this valuable content.
+- Masonry/editorial gallery
+- Category filters
+- Smooth FLIP transitions
+- Lightbox
+- image lazy-loading
+- avoid rendering all full-resolution assets eagerly
+- visible “View Projects” CTA
+
+H. SA + MOZAMBIQUE COVERAGE
+Create a refined dual-market section, not a fake global map.
+- South Africa: Gauteng and surrounding areas
+- Mozambique: Condene, Moamba and surrounding areas
+- Distinct CTA per region
+- language-aware copy
+
+I. TRAINING
+Retain the current practical training positioning: electrical, solar, inverter, battery, testing/fault finding, safety, real applications.
+Do not claim accreditation unless verified.
+
+J. QUOTE CTA
+Premium short form / CTA. Keep WhatsApp as an alternate path.
+
+K. FOOTER
+Full bilingual footer with verified company details, services and brand slogan.
+
+BILINGUAL ARCHITECTURE
+- Build EN and PT from the same component tree/data model. Do not duplicate entire page component files if avoidable.
+- Translation keys/content must cover EVERY visible UI string, metadata string, validation message, service label, form option, nav label and CTA.
+- EN/PT switch must preserve the equivalent current page rather than always returning to home.
+- Remember language preference.
+- Add correct <html lang> handling.
+- Add canonical + hreflang for en, pt and x-default where appropriate.
+- Avoid mixed-language leakage.
+
+ANIMATION SYSTEM — HIGHLY ANIMATED, NOT CHAOTIC
+Use GSAP/ScrollTrigger because they are already in dependencies.
+Create a reusable motion system rather than one-off page hacks.
+
+Required premium interactions:
+1. Loader/entry: JMOTO lightning stroke draws, then retracts into navbar logo. Keep short and skip/reduce after first visit.
+2. Hero: split-text/mask reveal WITHOUT sacrificing accessibility; background parallax; red current line animates through scene.
+3. Scroll progress: subtle red current indicator integrated into page edge or nav.
+4. Service cards: masked image reveal + magnetic arrow on desktop.
+5. Power Flow section: animated SVG electrical trace.
+6. Counters only if numbers are verified. Otherwise use icon/statement reveals instead.
+7. Projects: GSAP Flip for filtering; lightbox with smooth transitions.
+8. Section transitions: clip-path/mask wipes, not repetitive fade-up everywhere.
+9. Contact/quote: interactive focus glow and selected-service visualization.
+10. Footer: closing red energy line terminating in the logo/slogan.
+
+MOTION SAFETY / PERFORMANCE
+- Respect prefers-reduced-motion.
+- No cursor follower on touch/mobile.
+- Kill/revert ScrollTriggers cleanly on route changes/unmount.
+- Avoid huge blur filters and permanent will-change.
+- Do not make scrolling feel hijacked.
+- Keep input/form interactions immediate.
+- Optimize LCP hero; do not load every gallery image at startup.
+- Test low-end mobile.
+
+SERVICE PAGE TEMPLATE
+Each service page needs:
+- localized metadata
+- cinematic hero with text-free media
+- concise problem/solution intro
+- what we do
+- use cases
+- process
+- related services
+- gallery/proof where repository has real images
+- quote CTA
+- WhatsApp CTA
+- EN/PT content
+
+PAGES TO UPGRADE
+- Home
+- About Us
+- Services overview
+- Electrical
+- Solar
+- CCTV
+- Inverter Solutions
+- Battery Solutions
+- Electronics & Electrical Supply
+- Maintenance/Repairs if absent, add it using verified service capabilities only
+- Projects
+- Training
+- Service Areas
+- Shop: preserve functionality; if incomplete, do not fabricate products or pricing; clearly mark as catalogue/enquiry if that is its real state
+- Quote
+- Contact
+
+ASSET PACK
+Use folders supplied with this mission:
+01_brand: logo + brand rules
+02_desktop: hero/support backgrounds
+03_mobile: mobile-specific crops
+04_services: text-free service imagery, desktop/mobile
+05_icons: editable SVGs
+06_content: bilingual copy + site structure
+08_reference: original JMOTO posters and concept boards, REFERENCE ONLY
+
+DO NOT
+- Do not bake translated headings into generated images.
+- Do not turn the whole site into poster images.
+- Do not copy claims from mockups such as “500+ projects”, “100% satisfaction”, “certified team”, “24/7 support” unless verified in actual source data.
+- Do not remove current real project gallery content.
+- Do not break Portuguese while improving English.
+- Do not use emoji icons in final production UI.
+- Do not use excessive red glow everywhere.
+- Do not change the official slogan.
+
+SEO / TECHNICAL
+- Localized title/description per page.
+- Organization/LocalBusiness/Service schema only with verified facts.
+- hreflang EN/PT.
+- sitemap includes localized pages.
+- semantic headings and landmarks.
+- OG metadata per locale.
+- accessible nav/dropdowns/forms/lightbox.
+- keyboard testing.
+- visible focus states.
+
+QUALITY GATE
+A build passing is NOT enough.
+Before claiming complete:
+1. npm run lint
+2. npm run build
+3. Manually open every major route in BOTH English and Portuguese.
+4. Verify desktop and mobile navigation.
+5. Verify language switch stays on equivalent route.
+6. Verify Quote submission/WhatsApp path.
+7. Verify Shop route still works.
+8. Verify Projects category filters and lightbox.
+9. Verify all service routes and CTAs.
+10. Check browser console for runtime errors.
+11. Check no broken images / missing translations.
+12. Check 360px, 390px, tablet, 1440px and >=1920px layouts.
+13. Check reduced-motion behaviour.
+14. Capture screenshots of key flows as evidence.
+15. Report exactly what changed, what was verified, and any blocker that remains.
+
+DELIVERY
+Implement the redesign in the existing repository. Keep commits scoped and readable. Do not stop at design suggestions. Produce the working upgrade, then a final verification report with screenshots/evidence.

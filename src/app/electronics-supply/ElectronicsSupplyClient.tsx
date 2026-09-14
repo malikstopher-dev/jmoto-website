@@ -40,7 +40,7 @@ export default function ElectronicsSupplyClient() {
       <PageBanner
         title={t.electronicsSupply.heroTitle}
         subtitle={t.electronicsSupply.heroSubtitle}
-        image="/electronics-supply/JMOTO_Electronics_Supply_Hero_Banner.png"
+        image="/assets/01_hero_desktop/hero-electronics-electrical-supply-desktop.webp"
       />
 
       <IntroSection t={t} />
@@ -100,7 +100,7 @@ function IntroSection({ t }: { t: any }) {
           </div>
           <div className="relative">
             <Image
-              src="/electronics-supply/JMOTO_Electronics_Supply_Section_Banner.png"
+              src="/assets/06_support_images/supply-showroom.webp"
               alt="JMOTO Electronics and Electrical Supply materials"
               width={600}
               height={500}

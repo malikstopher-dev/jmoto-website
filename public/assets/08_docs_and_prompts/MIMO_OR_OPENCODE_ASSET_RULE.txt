@@ -1,0 +1,12 @@
+NON-NEGOTIABLE IMPLEMENTATION RULES
+
+1. Only use services verified on the live JMOTO site.
+2. Never use the old V4 import/export, web-design, gates, access-control, smart-home or IT/network imagery.
+3. Use authentic JMOTO gallery photos for Projects/Training whenever possible.
+4. Generated assets may support page heroes/service cards, but must not claim a job is an actual JMOTO completed project unless it came from the authentic gallery.
+5. Desktop and mobile heroes are separate physical files. Do not serve desktop to mobile.
+6. Keep image text-free. All titles, pricing, CTAs, phone numbers and translations remain HTML/CSS.
+7. Keep the existing official JMOTO logo from the codebase.
+8. Product imagery on Shop is illustrative unless a product is actually stocked. Do not attach generated imagery to a specific SKU/brand unless verified.
+9. Use loading=lazy below the fold, width/height attributes, and responsive srcset/picture.
+10. Before calling the work finished, manually verify every relevant page on desktop and mobile, including Projects gallery, Supply and Shop.

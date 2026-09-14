@@ -31,9 +31,7 @@ export default function ProjectsPage() {
     { key: "all", label: t.projects.all || "All" },
     { key: "electrical", label: t.projects.electrical },
     { key: "solar", label: t.projects.solar },
-    { key: "cctv", label: t.projects.cctv },
     { key: "inverter", label: t.projects.inverters },
-    { key: "battery", label: t.projects.batteries },
     { key: "training", label: t.projects.training },
   ];
 
@@ -130,7 +128,8 @@ export default function ProjectsPage() {
       <PageBanner
         title={t.nav.projects}
         subtitle={t.projects.bannerSubtitle}
-        image="/banners/JMOTO_Banner_Projects_Gallery.png"
+        desktopImage="/assets/01_hero_desktop/hero-projects-desktop.webp"
+        mobileImage="/assets/02_hero_mobile/hero-projects-mobile.webp"
       />
 
       <section className="py-16 lg:py-24 bg-black">

@@ -1,0 +1,21 @@
+ROUTE / PAGE -> ASSETS
+
+/ -> hero-home-desktop.webp + hero-home-mobile.webp
+/about -> hero-about-* + about-company.webp
+/services/electrical -> hero-electrical-* + service-electrical.webp
+/services/solar -> hero-solar-* + service-solar.webp
+/services/cctv -> hero-cctv-* + service-cctv.webp
+/services/inverter -> hero-inverter-* + service-inverter.webp
+/services/battery -> hero-battery-* + service-battery.webp
+/electronics-supply -> hero-electronics-electrical-supply-* + service-electronics-electrical-supply.webp + supply-showroom.webp
+/electronics-supply#items-on-sale -> hero-shop-sale-* + shop-gadgets.webp + /04_shop_supply_cards/category-*.webp
+/projects -> hero-projects-* + projects-overview.webp + authentic gallery
+/training -> hero-training-* + service-training.webp + training-hands-on.webp + training gallery
+/contact -> hero-contact-* + contact-consultation.webp
+/quote -> hero-quote-* + quote-assessment.webp
+
+GALLERY FILTER TAGS
+Electrical: 01, 09, 10, 11, 12, 13
+Solar: 05, 06, 14
+Inverter: 07, 08
+Training: 02, 03, 04, 15, 16, 17, 18, 19

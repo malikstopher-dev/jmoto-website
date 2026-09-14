@@ -31,13 +31,16 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
-    setLanguageState(getInitialLanguage());
+    const lang = getInitialLanguage();
+    setLanguageState(lang);
+    document.documentElement.lang = lang;
     setIsHydrated(true);
   }, []);
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
     localStorage.setItem("jmoto-language", lang);
+    document.documentElement.lang = lang;
   };
 
   const t = translations[language] as TranslationsType;

@@ -71,7 +71,8 @@ ${t.quote.contactMethod}: ${formData.contactMethod}`;
       <PageBanner
         title={t.nav.getAQuote}
         subtitle={t.quote.bannerSubtitle}
-        image="/banners/JMOTO_Banner_Request_Quote.png"
+        desktopImage="/assets/01_hero_desktop/hero-quote-desktop.webp"
+        mobileImage="/assets/02_hero_mobile/hero-quote-mobile.webp"
       />
 
       <section className="py-16 lg:py-24 bg-black">

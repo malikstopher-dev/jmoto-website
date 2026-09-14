@@ -1,0 +1,39 @@
+JMOTO MASTER IMAGE DIRECTION
+
+Visual identity: premium but credible Southern African electrical contractor; realistic residential/commercial settings; skilled Black African electricians and trainees; navy/red workwear inspired by JMOTO; clean electrical workmanship; warm natural daylight; true-to-life tools and components; no fake certificates; no invented service claims; no baked-in marketing text; no watermark; no replacement logo.
+
+HOME HERO
+Wide, cinematic JMOTO electrical/solar overview showing electrical distribution work, rooftop solar and professional technical execution. Leave calm negative space for live HTML headline.
+
+ELECTRICAL
+Professional electrician working on a modern distribution board, correct tools, organized red/yellow/blue conductors, residential/commercial context, safe work posture.
+
+SOLAR
+Rooftop photovoltaic installation in Southern Africa, mounting rails, panels, MC4/DC cabling and installers, realistic tiled/corrugated roof.
+
+CCTV
+Professional CCTV camera installation on a home or business exterior, technician mounting/configuring camera, recorder/monitor context, no access-control or alarm claims.
+
+INVERTER
+Wall-mounted hybrid inverter installation and configuration, neat conduit/cabling, distribution protection visible, realistic domestic/commercial backup power setting.
+
+BATTERY
+Backup battery bank/system testing with multimeter and inverter interface, tidy safe cabling, realistic technical room.
+
+ELECTRONICS & ELECTRICAL SUPPLY
+Premium supply counter/showroom with cables, breakers, sockets, switches, LEDs, CCTV accessories, solar/inverter accessories and tools. No unverified brand claims.
+
+SHOP / ITEMS ON SALE
+Clean product-led commercial imagery for power banks, memory cards, adapters, plugs, extension leads, LED lamps, cables, breakers and related gadgets/accessories. Text-free.
+
+TRAINING
+Hands-on classroom/workshop training with real electrical/solar/inverter/battery equipment, instructor guiding trainees, safety-focused practical learning.
+
+PROJECTS
+Prefer authentic gallery. If a decorative support image is needed, use a tasteful montage clearly separate from claims of completed jobs.
+
+CONTACT / QUOTE
+Professional electrician reviewing plans/tablet or speaking to a client by phone, technical environment in background, room for live contact form/CTA.
+
+NEGATIVE PROMPT / DO NOT GENERATE
+No automated gates, no access control, no smart-home automation, no IT/networking, no web design, no import/export logistics, no generators, no plumbing, no HVAC, no unrelated construction services, no fake awards, no fake certificates, no baked-in text, no fake JMOTO logo.

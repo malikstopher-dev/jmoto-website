@@ -1,0 +1,14 @@
+JMOTO — SOL FINAL AUDIT PROMPT
+
+Audit the Mimo implementation as a senior production reviewer. Do not redesign blindly. Verify the live experience end-to-end on desktop and mobile and in BOTH English and Portuguese.
+
+Locked rules:
+- Official slogan: “We’ll keep you bright.” exactly.
+- EN + PT throughout, with professional Portuguese suitable for Mozambique.
+- South Africa + Mozambique positioning.
+- Never invent statistics, certifications, accreditation, warranties, project counts or testimonials.
+- Preserve real project gallery content and shop/quote functionality.
+
+Audit: routes, locale switching, responsive nav, services, projects filters/lightbox, training, shop, quote form, WhatsApp, contact data, SEO/hreflang, accessibility, reduced motion, GSAP cleanup, LCP/image loading, console errors, build/lint.
+
+Manual verification is mandatory. A green build is not proof of a working customer flow. Return evidence, exact defects found, fixes made and remaining blockers.

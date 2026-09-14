@@ -1,0 +1,1846 @@
+{
+  "pack": "JMOTO Website Assets DIST V5",
+  "file_count": 126,
+  "files": [
+    {
+      "file": "dist/05_gallery_enhanced_webp/01-jmoto-electrician-control-panel.webp",
+      "category": "Electrical",
+      "size": [
+        1440,
+        1920
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.02.38.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/01-jmoto-electrician-control-panel.jpg",
+      "category": "Electrical",
+      "size": [
+        1440,
+        1920
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.02.38.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/02-training-classroom-instructor.webp",
+      "category": "Training",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.11.26.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/02-training-classroom-instructor.jpg",
+      "category": "Training",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.11.26.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/03-training-classroom-computers.webp",
+      "category": "Training",
+      "size": [
+        1920,
+        1080
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.12.10.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/03-training-classroom-computers.jpg",
+      "category": "Training",
+      "size": [
+        1920,
+        1080
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.12.10.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/04-training-classroom-session.webp",
+      "category": "Training",
+      "size": [
+        1920,
+        1080
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.12.43.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/04-training-classroom-session.jpg",
+      "category": "Training",
+      "size": [
+        1920,
+        1080
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.12.43.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/05-solar-roof-mounting-rails.webp",
+      "category": "Solar",
+      "size": [
+        1170,
+        1560
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.26.27 (1).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/05-solar-roof-mounting-rails.jpg",
+      "category": "Solar",
+      "size": [
+        1170,
+        1560
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.26.27 (1).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/06-solar-panel-testing-rooftop.webp",
+      "category": "Solar",
+      "size": [
+        1170,
+        1560
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.26.28 (1).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/06-solar-panel-testing-rooftop.jpg",
+      "category": "Solar",
+      "size": [
+        1170,
+        1560
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.26.28 (1).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/07-inverter-installation-conduit.webp",
+      "category": "Inverter",
+      "size": [
+        1170,
+        1560
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.26.30 (1).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/07-inverter-installation-conduit.jpg",
+      "category": "Inverter",
+      "size": [
+        1170,
+        1560
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.26.30 (1).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/08-inverter-installation-wall.webp",
+      "category": "Inverter",
+      "size": [
+        1170,
+        1560
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.26.30.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/08-inverter-installation-wall.jpg",
+      "category": "Inverter",
+      "size": [
+        1170,
+        1560
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.26.30.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/09-distribution-board-electrical-work.webp",
+      "category": "Electrical",
+      "size": [
+        1170,
+        1560
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.33.33 (1).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/09-distribution-board-electrical-work.jpg",
+      "category": "Electrical",
+      "size": [
+        1170,
+        1560
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.33.33 (1).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/10-distribution-board-wiring.webp",
+      "category": "Electrical",
+      "size": [
+        1296,
+        1728
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.33.33 (2).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/10-distribution-board-wiring.jpg",
+      "category": "Electrical",
+      "size": [
+        1296,
+        1728
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.33.33 (2).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/11-distribution-board-connection.webp",
+      "category": "Electrical",
+      "size": [
+        1296,
+        1728
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.33.34.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/11-distribution-board-connection.jpg",
+      "category": "Electrical",
+      "size": [
+        1296,
+        1728
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.33.34.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/12-electrical-conduit-construction.webp",
+      "category": "Electrical",
+      "size": [
+        918,
+        1224
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.33.35 (2).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/12-electrical-conduit-construction.jpg",
+      "category": "Electrical",
+      "size": [
+        918,
+        1224
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.33.35 (2).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/13-electrical-conduit-roof-slab.webp",
+      "category": "Electrical",
+      "size": [
+        1224,
+        918
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.33.35 (3).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/13-electrical-conduit-roof-slab.jpg",
+      "category": "Electrical",
+      "size": [
+        1224,
+        918
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 22.33.35 (3).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/14-rooftop-solar-installation-team.webp",
+      "category": "Solar",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 20.18.03 (2).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/14-rooftop-solar-installation-team.jpg",
+      "category": "Solar",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 20.18.03 (2).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/15-practical-technical-training.webp",
+      "category": "Training",
+      "size": [
+        1920,
+        1080
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 20.24.18 (2).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/15-practical-technical-training.jpg",
+      "category": "Training",
+      "size": [
+        1920,
+        1080
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 20.24.18 (2).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/16-training-workshop-room-a.webp",
+      "category": "Training",
+      "size": [
+        1728,
+        1296
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 21.23.47 (1).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/16-training-workshop-room-a.jpg",
+      "category": "Training",
+      "size": [
+        1728,
+        1296
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 21.23.47 (1).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/17-training-workshop-room-b.webp",
+      "category": "Training",
+      "size": [
+        1728,
+        1296
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 21.23.47 (2).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/17-training-workshop-room-b.jpg",
+      "category": "Training",
+      "size": [
+        1728,
+        1296
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 21.23.47 (2).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/18-training-workshop-room-c.webp",
+      "category": "Training",
+      "size": [
+        1728,
+        1296
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 21.23.47 (3).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/18-training-workshop-room-c.jpg",
+      "category": "Training",
+      "size": [
+        1728,
+        1296
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 21.23.47 (3).jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/19-training-workshop-room-d.webp",
+      "category": "Training",
+      "size": [
+        1728,
+        1296
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 21.23.47.jpeg"
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/19-training-workshop-room-d.jpg",
+      "category": "Training",
+      "size": [
+        1728,
+        1296
+      ],
+      "source": "WhatsApp Image 2026-05-17 at 21.23.47.jpeg"
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-home-desktop.webp",
+      "route": "home",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-home-mobile.webp",
+      "route": "home",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-about-desktop.webp",
+      "route": "about",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-about-mobile.webp",
+      "route": "about",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-electrical-desktop.webp",
+      "route": "electrical",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-electrical-mobile.webp",
+      "route": "electrical",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-solar-desktop.webp",
+      "route": "solar",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-solar-mobile.webp",
+      "route": "solar",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-cctv-desktop.webp",
+      "route": "cctv",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-cctv-mobile.webp",
+      "route": "cctv",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-inverter-desktop.webp",
+      "route": "inverter",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-inverter-mobile.webp",
+      "route": "inverter",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-battery-desktop.webp",
+      "route": "battery",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-battery-mobile.webp",
+      "route": "battery",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-electronics-electrical-supply-desktop.webp",
+      "route": "electronics-electrical-supply",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-electronics-electrical-supply-mobile.webp",
+      "route": "electronics-electrical-supply",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-shop-sale-desktop.webp",
+      "route": "shop-sale",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-shop-sale-mobile.webp",
+      "route": "shop-sale",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-projects-desktop.webp",
+      "route": "projects",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-projects-mobile.webp",
+      "route": "projects",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-training-desktop.webp",
+      "route": "training",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-training-mobile.webp",
+      "route": "training",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-contact-desktop.webp",
+      "route": "contact",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-contact-mobile.webp",
+      "route": "contact",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-quote-desktop.webp",
+      "route": "quote",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-quote-mobile.webp",
+      "route": "quote",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-electrical.webp",
+      "service": "electrical",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-solar.webp",
+      "service": "solar",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-cctv.webp",
+      "service": "cctv",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-inverter.webp",
+      "service": "inverter",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-battery.webp",
+      "service": "battery",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-electronics-electrical-supply.webp",
+      "service": "electronics-electrical-supply",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-training.webp",
+      "service": "training",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-power-banks.webp",
+      "shop_category": "power-banks",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-memory-cards.webp",
+      "shop_category": "memory-cards",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-travel-adapters.webp",
+      "shop_category": "travel-adapters",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-switches-sockets.webp",
+      "shop_category": "switches-sockets",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-led-lighting.webp",
+      "shop_category": "led-lighting",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-electrical-cables.webp",
+      "shop_category": "electrical-cables",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-circuit-breakers.webp",
+      "shop_category": "circuit-breakers",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-cctv-accessories.webp",
+      "shop_category": "cctv-accessories",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-solar-inverter-accessories.webp",
+      "shop_category": "solar-inverter-accessories",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-extension-leads.webp",
+      "shop_category": "extension-leads",
+      "size": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/shop-gadgets-and-accessories.webp",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/electrical-electronic-supply.webp",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/shop-product-grid.webp",
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/home-overview.webp",
+      "size": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/about-company.webp",
+      "size": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/projects-overview.webp",
+      "size": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/training-hands-on.webp",
+      "size": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/contact-consultation.webp",
+      "size": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/quote-assessment.webp",
+      "size": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/supply-showroom.webp",
+      "size": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/shop-gadgets.webp",
+      "size": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/cctv-master.png",
+      "bytes": 2098560,
+      "sha256": "1081fe6ca37678015c5661e598a4b8afcf31f4895c3ed043ab4f4ec8418c6fbb",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/shop-master.png",
+      "bytes": 1871013,
+      "sha256": "3eca708569b35f0fced44a9cbf17751d120f03358728da4c8d077b58fdf5f491",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/projects-master.png",
+      "bytes": 2326812,
+      "sha256": "c5ff1de1ace28e04682bfdbc9899f55a0f731d83b2616dd46b72f1b1a332aadf",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/home-master.png",
+      "bytes": 2318303,
+      "sha256": "5862a2617a4d0ff67c92ba0abfe58797c9d10a4593cd2f52e1217d78e58fdc81",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/inverter-master.png",
+      "bytes": 1755886,
+      "sha256": "9e4cbf355e12e7bec3fe9b0e15ff431f34b47cbc6b202f763e3efb3b6a05deab",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/montage-master.png",
+      "bytes": 2671324,
+      "sha256": "9fdb0f0470aa567d03805f16813d09fcd733a0f84cf251e3c0eff90fd16c2bf7",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/contact-master.png",
+      "bytes": 1815634,
+      "sha256": "d88d4601a7b1131b5c314179996521be5a1d458f554ebd92c9a3a2aaabc07ffc",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/electrical-master.png",
+      "bytes": 2019434,
+      "sha256": "06739853f293d9fbc28df2854700fd8c67c8553010c60a77942f46bb65b4cbf3",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/products_grid-master.png",
+      "bytes": 2164941,
+      "sha256": "cc2918faece2fad4453e244c18ce9e689577408fbb36552b4a858ffa619768bb",
+      "dimensions": [
+        1983,
+        793
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/solar-master.png",
+      "bytes": 2296329,
+      "sha256": "901b9ecb3ef968f3b4995d6151d3069b3433a33ab8072a0e6fc7044712e08b5e",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/training-master.png",
+      "bytes": 2003531,
+      "sha256": "128fa7e485ba639069da09790b26cddb3b9e46139bf240116f043a66a865f403",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/battery-master.png",
+      "bytes": 1926541,
+      "sha256": "01c19a52ce3479419a3d3e44d9dcd1015871d93e90a92efd6b7066026cbdb8ec",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/supply-master.png",
+      "bytes": 2154325,
+      "sha256": "ccf94e83b70c3b98515893ce4b8e66a052c20030fdb4c87c52d48b79b8a75483",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/09_master_generated_png/quote-master.png",
+      "bytes": 2040273,
+      "sha256": "fc4475b92c2c852e4dc73bb8387fe318d448d753cf8607548c0f17b15001b575",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-training-desktop.webp",
+      "bytes": 224134,
+      "sha256": "fa5a51c3b255a34870b02657b4fa39edb36bce41d059c83326dfcd0538684c40",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-quote-desktop.webp",
+      "bytes": 211016,
+      "sha256": "f537dfbf82d9af1b895b7272c40beda2846af462f790ef5da1f2bd1bcfd3988c",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-cctv-desktop.webp",
+      "bytes": 253528,
+      "sha256": "b0e845105421363ddd104d58d3c07d4b3c39de3b9afcac5bdb43bc915449cf48",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-shop-sale-desktop.webp",
+      "bytes": 195726,
+      "sha256": "07be2e62766c48503cd5cd67f5d60b801b83dc32f86cd0378d372bc9c77c405d",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-projects-desktop.webp",
+      "bytes": 306330,
+      "sha256": "13d353b9245290e7c9de9dc00eb80215a06785cba27fa8acd0fd129f94a39d08",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-electronics-electrical-supply-desktop.webp",
+      "bytes": 319938,
+      "sha256": "e8995608709908d086f2bcecf846fac26e16370ea0841c33720c8caf33fcb60e",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-contact-desktop.webp",
+      "bytes": 155644,
+      "sha256": "ef08f5019f88401a8f2c3fbbbd94eb1fe5d3bc98390592d822543b4ba61b313b",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-about-desktop.webp",
+      "bytes": 224230,
+      "sha256": "5130b289b15d111cad558a0b814d7772b336cd68c6affa454a9c917590c55eed",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-battery-desktop.webp",
+      "bytes": 200866,
+      "sha256": "fa331316fa1a8ded3f206b63c511bbc5bd2b4e47847a7033b6bcff7d1656d222",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-inverter-desktop.webp",
+      "bytes": 140054,
+      "sha256": "f8adf51c0cf008ce78968713bf4ca384705b3b7a350455025e9c9641e42928f9",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-home-desktop.webp",
+      "bytes": 289006,
+      "sha256": "a9eca6c49fde8eb584fa1a76bb13d34a8b99b7de08820b3043932b2c9704e6bb",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-electrical-desktop.webp",
+      "bytes": 224230,
+      "sha256": "5130b289b15d111cad558a0b814d7772b336cd68c6affa454a9c917590c55eed",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/01_hero_desktop/hero-solar-desktop.webp",
+      "bytes": 293800,
+      "sha256": "a94b976731d90edd215409c5983ab0d35158cc5f16643503d9d3f5f8f8e5313a",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/electrical-electronic-supply.webp",
+      "bytes": 269880,
+      "sha256": "a88c73e51ef9faa257d58404eeb73219648b1a47e05946d5d04deb7a8d8394af",
+      "dimensions": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-led-lighting.webp",
+      "bytes": 50656,
+      "sha256": "327b2d212f2325c1cea63cf2179e6f79f6f75112bfbf161c4d0fc2dbc4e7c10b",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-extension-leads.webp",
+      "bytes": 89338,
+      "sha256": "3e486c548724540eafd97e1050c877eb048281727b25bbf439198e0bfab04933",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-memory-cards.webp",
+      "bytes": 68994,
+      "sha256": "a32566f61a42d38fd6e5e0e34f62a60a28d16fcb0a214dbf244b2ca974f1e3c1",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-cctv-accessories.webp",
+      "bytes": 79442,
+      "sha256": "ca5877f11691ac52f99b0a3106a5b26b3d6d42bc10241a9cbd431807e69c6a91",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-solar-inverter-accessories.webp",
+      "bytes": 85394,
+      "sha256": "e0e11b1e0782b5812f9cc7eb9e3e7cc52363549875caffa1949acef64f28bd82",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-switches-sockets.webp",
+      "bytes": 39528,
+      "sha256": "58d7b3a92cdd1134646160f2da1e01afcdb606d8af62a177e6f096e173a79905",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/shop-gadgets-and-accessories.webp",
+      "bytes": 172048,
+      "sha256": "44ceaf75fc13b83b6e99fd0911959bc684e2d7fbaba687dd0b6023d1cdb3f910",
+      "dimensions": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-electrical-cables.webp",
+      "bytes": 99700,
+      "sha256": "518f5356efe52dbb6b949d7391b8b80bede821f7f80bf3a1a9c3446ad71669d9",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-travel-adapters.webp",
+      "bytes": 52022,
+      "sha256": "f7cad5b823c8bf6d18ed1c3faff6e38b9446d9a13ce9ba3964533bf4f023525f",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/shop-product-grid.webp",
+      "bytes": 195832,
+      "sha256": "d0ed86b1353becf6f895cd74aa9286561255a484907cc048d5a9ad15220c1f99",
+      "dimensions": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-power-banks.webp",
+      "bytes": 43242,
+      "sha256": "1e14c7854fc283778b5836d3a4f2f97b59e19c7e3c09f38fe5cf32894e5711a5",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/04_shop_supply_cards/category-circuit-breakers.webp",
+      "bytes": 69754,
+      "sha256": "1d0639ac6ef2a07763eaa7f138f6ea2283ec16a0034142ba858028130c2e407d",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/08_docs_and_prompts/OPENCODE_IMPLEMENTATION_PROMPT.txt",
+      "bytes": 1814,
+      "sha256": "703aabff624aeb0dcf53a24c18596bf4d35895f1d48673d5f2788ccef46212f9",
+      "dimensions": null
+    },
+    {
+      "file": "dist/08_docs_and_prompts/GENERATION_PROMPTS_MASTER.txt",
+      "bytes": 2636,
+      "sha256": "bb778fd8475de1aad1ec976c34d385eadfea687f311206ee1b8826b1efd8ef45",
+      "dimensions": null
+    },
+    {
+      "file": "dist/08_docs_and_prompts/ASSET_MAP.txt",
+      "bytes": 1059,
+      "sha256": "a0b7587f40cb4f42f784b6842ca13ed2e329e733ab7ab6ae084a7679f802b91e",
+      "dimensions": null
+    },
+    {
+      "file": "dist/08_docs_and_prompts/MIMO_OR_OPENCODE_ASSET_RULE.txt",
+      "bytes": 1080,
+      "sha256": "7f4eddc837ae6a835f0e539268844c71398b6e4aa9d1d8ac7d873728ea537d62",
+      "dimensions": null
+    },
+    {
+      "file": "dist/08_docs_and_prompts/README_FIRST.txt",
+      "bytes": 1521,
+      "sha256": "4e65e4ef1a7a09e5067cad29c3ed805d305b067cdd221b4e9a616fbf3e2a9cac",
+      "dimensions": null
+    },
+    {
+      "file": "dist/08_docs_and_prompts/OLD_V4_AUDIT_AND_CORRECTIONS.txt",
+      "bytes": 838,
+      "sha256": "d469b2e809697e51d2f6a729091ef3a4f570a6a3958039997ee851f184b044f6",
+      "dimensions": null
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-electronics-electrical-supply-mobile.webp",
+      "bytes": 168622,
+      "sha256": "96c7ade66126f6541268602f69bb5f3ff689cea33f54a50cd86620884f271350",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-contact-mobile.webp",
+      "bytes": 109248,
+      "sha256": "898fe46b2a46a67b9cd28faa2f9caf417e6737b7d91e4e1284bd291e0c8460b7",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-solar-mobile.webp",
+      "bytes": 162148,
+      "sha256": "832555f99b8071b22b1e7775f87dc0a15e21b054c591ae0834857af6f4c9e3cc",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-about-mobile.webp",
+      "bytes": 141998,
+      "sha256": "dbfd8a6d719691889a48a2d0f23c30ba2cd48a42452d2b48254ea1a8547e07ac",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-quote-mobile.webp",
+      "bytes": 137258,
+      "sha256": "79af43c4239b7b3b6be8548e64e3319bde6d895c27ed859868a0640173cbd52e",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-projects-mobile.webp",
+      "bytes": 190592,
+      "sha256": "9d95cd00addd1b1aa66314776120283cacc1088f53f044e2b39bd1362d990ff9",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-home-mobile.webp",
+      "bytes": 150450,
+      "sha256": "5d0341003fde6514b29ff26856066f389bf20590480f7a898017d3b418a3113f",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-electrical-mobile.webp",
+      "bytes": 141998,
+      "sha256": "dbfd8a6d719691889a48a2d0f23c30ba2cd48a42452d2b48254ea1a8547e07ac",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-cctv-mobile.webp",
+      "bytes": 152648,
+      "sha256": "20d57b53b13e6c4f75c865327216eebe632217b805472ce74d45066a65f93d6a",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-shop-sale-mobile.webp",
+      "bytes": 107914,
+      "sha256": "d71f863560a889dc3edcbba0543eda73a88338d591cb03d13164286fee512460",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-battery-mobile.webp",
+      "bytes": 152900,
+      "sha256": "1d7eccf4c9f17c0fc788fbef4dd7f5d9cf8acb503442c7dfafbc17cb7288b708",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-training-mobile.webp",
+      "bytes": 151514,
+      "sha256": "6d5d38b9e93731d9007a5d0f1573f8c9e9e4ed5af5a6c7f902c8ecfd4429ff85",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/02_hero_mobile/hero-inverter-mobile.webp",
+      "bytes": 99552,
+      "sha256": "959e578e3015e4081020c1b439dfd7a8e44b253fd461b2cf777b057a8e800243",
+      "dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/08-inverter-installation-wall.webp",
+      "bytes": 177448,
+      "sha256": "991c4b746a81e900736fdb5677e2bc8550677dea68f968239650bacae87080bb",
+      "dimensions": [
+        1170,
+        1560
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/19-training-workshop-room-d.webp",
+      "bytes": 207422,
+      "sha256": "dac2e0eb42e898207d693d42e17c4d1c08abffae1080f71210f033d02c7cda4b",
+      "dimensions": [
+        1728,
+        1296
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/11-distribution-board-connection.webp",
+      "bytes": 153232,
+      "sha256": "ad6bc2f9fe8602490a23fccefe489cb5534b7d1d387a40d9fc2d944bfb7f01d4",
+      "dimensions": [
+        1296,
+        1728
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/04-training-classroom-session.webp",
+      "bytes": 117576,
+      "sha256": "ff8b9f9a44ba930379dae028554b617a319b7331e06dc1394c82646ec72eeb04",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/03-training-classroom-computers.webp",
+      "bytes": 168592,
+      "sha256": "b8f3b8cd253dc0eb186e339585e433cd5d0d186d1634114339501a5c8f91a5ac",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/17-training-workshop-room-b.webp",
+      "bytes": 170224,
+      "sha256": "b65b8b4e1ba356d03757c51068ecd9014aaad2b6972fdecbd0d1a3703e86d4b5",
+      "dimensions": [
+        1728,
+        1296
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/05-solar-roof-mounting-rails.webp",
+      "bytes": 394776,
+      "sha256": "538f6e984326c4859c452aa29726685b3960b70589e310d4ef59ae29513e8abc",
+      "dimensions": [
+        1170,
+        1560
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/14-rooftop-solar-installation-team.webp",
+      "bytes": 373620,
+      "sha256": "8cb7dd4d9ade8522621ba09dbb6712b096ea42283a557558e01acf139a0d6436",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/01-jmoto-electrician-control-panel.webp",
+      "bytes": 123184,
+      "sha256": "a4c47e010fbc63bf8e357234f3f0c7ca8271e0d8168b57cd8992b8a89e24ef5c",
+      "dimensions": [
+        1440,
+        1920
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/16-training-workshop-room-a.webp",
+      "bytes": 227304,
+      "sha256": "38f3c39b41b13b0cda12f131639ea7c890b9f155be603e7b843c996aab7038b9",
+      "dimensions": [
+        1728,
+        1296
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/09-distribution-board-electrical-work.webp",
+      "bytes": 167174,
+      "sha256": "31dc0e060c7b1448d6c266d4c7823c9b28559bddcd4cbbdd4d61ba8a86bd77d1",
+      "dimensions": [
+        1170,
+        1560
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/02-training-classroom-instructor.webp",
+      "bytes": 114794,
+      "sha256": "b353b98484dd76c0bf314d5654d21d5f194d7a46ecacc514b4723cdc388fd3c2",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/18-training-workshop-room-c.webp",
+      "bytes": 193716,
+      "sha256": "5778a033cf02c99ab53e740e88aa28ad39e5546489785c0e681d5c93a596f553",
+      "dimensions": [
+        1728,
+        1296
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/12-electrical-conduit-construction.webp",
+      "bytes": 361074,
+      "sha256": "b971dbc33cdb6184afd3906ee4d1fe02fed110ff153d6965d96ca99ff7bde0b1",
+      "dimensions": [
+        918,
+        1224
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/07-inverter-installation-conduit.webp",
+      "bytes": 183944,
+      "sha256": "52c1b5de484ea25e0ebe7a9eab6096c2b8bfd753db1cd64de5807c303c249748",
+      "dimensions": [
+        1170,
+        1560
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/10-distribution-board-wiring.webp",
+      "bytes": 176888,
+      "sha256": "3e4d1672cdf77410fff907cef840b7fdf65b77e230b56e7a042c2e15c337835b",
+      "dimensions": [
+        1296,
+        1728
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/15-practical-technical-training.webp",
+      "bytes": 299406,
+      "sha256": "aeaf0edf9b966f806c5891a4de4025412bf2f1802af47e51f90d1abee2422b53",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/13-electrical-conduit-roof-slab.webp",
+      "bytes": 415674,
+      "sha256": "198c2449efeb79bccda6ef833773a9003b21a31b69d7bdb9bfae1fe35832e59b",
+      "dimensions": [
+        1224,
+        918
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_webp/06-solar-panel-testing-rooftop.webp",
+      "bytes": 371220,
+      "sha256": "3d0bcb62fad9f1f4739b2ad6bdd4c45486b486a74716288a850565413f7f445a",
+      "dimensions": [
+        1170,
+        1560
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-training.webp",
+      "bytes": 135560,
+      "sha256": "8116ff2dc2bf7921764f99428991dc498af127570f274e02f577ff1c99860b08",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-battery.webp",
+      "bytes": 109768,
+      "sha256": "f903941657b8bd1e909705bb8f1bf0977074f42ea61df4a22f273741e82d4aa3",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-inverter.webp",
+      "bytes": 83084,
+      "sha256": "35de517e570377d9ed50906e1d87a1f9151b2c5f4f2de2ad6914d3e66d99ed2d",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-electronics-electrical-supply.webp",
+      "bytes": 184570,
+      "sha256": "c90066eb3f9e85f39db69c4004a43905ee50085bf8217c8606efbf1c38ef6927",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-electrical.webp",
+      "bytes": 144648,
+      "sha256": "4bae6a4f491f56ac2bc9f918dd1f42d8a75bc1739286137211c952754fe402ca",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-cctv.webp",
+      "bytes": 144246,
+      "sha256": "37a77de75ea4c8f064932bbcc107c7a22c6dd84dd9671c8efd3683d0400caebe",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/03_service_cards/service-solar.webp",
+      "bytes": 176654,
+      "sha256": "cb0a42b2350bf45b908d6b119a5d0e14709e1b332b34b8a8831f5ecb813f7ba3",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "file": "dist/06_support_images/projects-overview.webp",
+      "bytes": 218336,
+      "sha256": "71c729056b7bdeacc57b15bb27f813b71f08ff5281121c6a18277464e525977a",
+      "dimensions": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/contact-consultation.webp",
+      "bytes": 112810,
+      "sha256": "b40afa49ae1fb26d909f862fc8cf21d3587182cbddd68abc5f60fe35c33957e8",
+      "dimensions": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/home-overview.webp",
+      "bytes": 334246,
+      "sha256": "b89b6d70a3e5ad23031347804b7b28d7e8cfae9cf3f78ad6bf2e9d4f88b05c7e",
+      "dimensions": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/supply-showroom.webp",
+      "bytes": 223482,
+      "sha256": "e44b5887a02fbcd5a7342fe39a144439f86ad54e407f70d61c61b107fcfa219e",
+      "dimensions": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/training-hands-on.webp",
+      "bytes": 165242,
+      "sha256": "75cac9cbf34fcce5e27a08019bffd541ebfeda521eb194d89043ae6070757de4",
+      "dimensions": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/quote-assessment.webp",
+      "bytes": 157112,
+      "sha256": "ac3c735950014b77aa64ab9bccff9689e371f290c69a06f911d28cd313ecbc25",
+      "dimensions": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/about-company.webp",
+      "bytes": 172326,
+      "sha256": "fbbcaa2ee23c30f0f195032e8424a0c9555f226e729715fb4687c8fc75ce28c6",
+      "dimensions": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/06_support_images/shop-gadgets.webp",
+      "bytes": 141440,
+      "sha256": "ca99d324eea184dbb059b9803c9e91dab84b4ab4ae881fe5d3688bed13f85ce9",
+      "dimensions": [
+        1400,
+        900
+      ]
+    },
+    {
+      "file": "dist/07_brand_and_icons/icon-training.svg",
+      "bytes": 230,
+      "sha256": "7f978b28daf47ccf76d5857141704605e405dbe2402df60534eb95b41ccb16c4",
+      "dimensions": null
+    },
+    {
+      "file": "dist/07_brand_and_icons/icon-shop.svg",
+      "bytes": 216,
+      "sha256": "a8f811d0b995b23a008b7dcbfa41d4e6915b6f0ad23bcfc6acef7b6c2b56ccd7",
+      "dimensions": null
+    },
+    {
+      "file": "dist/07_brand_and_icons/icon-solar.svg",
+      "bytes": 264,
+      "sha256": "817eae71e0e49779356497be2f49f3504e3ca0bb963d05374bfffd48c98c07a6",
+      "dimensions": null
+    },
+    {
+      "file": "dist/07_brand_and_icons/icon-electrical.svg",
+      "bytes": 201,
+      "sha256": "7d42f7a786c70c6b922c4013a28ed2b485e85e43b909b89395b51f2f3587c4f7",
+      "dimensions": null
+    },
+    {
+      "file": "dist/07_brand_and_icons/icon-cctv.svg",
+      "bytes": 214,
+      "sha256": "3fe23bd3e23d407169c8b549c93e5bff80b05d3c5b1c4218e5d3b6a3e3c9625b",
+      "dimensions": null
+    },
+    {
+      "file": "dist/07_brand_and_icons/icon-battery.svg",
+      "bytes": 255,
+      "sha256": "bcc76351dee93b53dcfb7747340e41a2974dcb3d5be3a5c8252cf4c1632fd35a",
+      "dimensions": null
+    },
+    {
+      "file": "dist/07_brand_and_icons/icon-inverter.svg",
+      "bytes": 224,
+      "sha256": "11362b4994b4d0da649b3568032b5dbec0388e259e250e835ed81ad555152f93",
+      "dimensions": null
+    },
+    {
+      "file": "dist/07_brand_and_icons/icon-backup.svg",
+      "bytes": 256,
+      "sha256": "06763b55fbd5cb6ef6610c791598fd9402bef5b896c2f1daba59f4e639e09ad1",
+      "dimensions": null
+    },
+    {
+      "file": "dist/07_brand_and_icons/icon-supply.svg",
+      "bytes": 236,
+      "sha256": "148771fba38bed12d736ab1f32df38173a3e0b8f64bc53f5799bef34f27ad043",
+      "dimensions": null
+    },
+    {
+      "file": "dist/07_brand_and_icons/BRAND_TOKENS.css",
+      "bytes": 234,
+      "sha256": "ba6acccd6039596e71523fde3548fd0c7d0cbafaf186a2e0a5c5a7f7404f093b",
+      "dimensions": null
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/03-training-classroom-computers.jpg",
+      "bytes": 377928,
+      "sha256": "97ae0f7ff2d7f1a93813f8399ee401cb562159e0b4d8d6567a571e407f7b6db6",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/13-electrical-conduit-roof-slab.jpg",
+      "bytes": 631709,
+      "sha256": "b56864653e40b428431bb8868dc3aaf85d9a05448baff9bc597ad60ea242d5d1",
+      "dimensions": [
+        1224,
+        918
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/19-training-workshop-room-d.jpg",
+      "bytes": 459176,
+      "sha256": "54f24f8eb9e40087beaece9d7910db031b73b13c43dc9eb560214dc2e2f66c8f",
+      "dimensions": [
+        1728,
+        1296
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/16-training-workshop-room-a.jpg",
+      "bytes": 485018,
+      "sha256": "beee29a6e899ff7582b993ad65958ca322d47a77dd1b7e47131e3f57df9b49e9",
+      "dimensions": [
+        1728,
+        1296
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/02-training-classroom-instructor.jpg",
+      "bytes": 304940,
+      "sha256": "3fb3707433fe57ef67dd1021eaa96427ec61e710e228c429fd5867f019d3cb0f",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/07-inverter-installation-conduit.jpg",
+      "bytes": 410314,
+      "sha256": "b1b7baab61ce5623dc9053cb926bfe4e3f85e9166f2e084b08b746bf1a1f6958",
+      "dimensions": [
+        1170,
+        1560
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/11-distribution-board-connection.jpg",
+      "bytes": 387001,
+      "sha256": "fe4b5359fb2eda505e63b2b99a932a65268482ae21e5255c1943c05f11fda8a2",
+      "dimensions": [
+        1296,
+        1728
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/08-inverter-installation-wall.jpg",
+      "bytes": 411208,
+      "sha256": "c305b0cb3d89469c8de27b7bae716f4c5be0a289cef11d6ea55dae6db2aff711",
+      "dimensions": [
+        1170,
+        1560
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/18-training-workshop-room-c.jpg",
+      "bytes": 437560,
+      "sha256": "95b20ea7e5132fe9dcc4122f7501080b7e21074e9b5219eeea6afcc7db1c3901",
+      "dimensions": [
+        1728,
+        1296
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/14-rooftop-solar-installation-team.jpg",
+      "bytes": 682296,
+      "sha256": "4088f4fe9ac0dd07f9ae19459d1439fd6c54d9bddfc61c699f426d9d0c41002f",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/10-distribution-board-wiring.jpg",
+      "bytes": 408422,
+      "sha256": "bc0052b7b29ee35db765c4ac9d8128972e133012fc17e875c3efb19a6b2b596b",
+      "dimensions": [
+        1296,
+        1728
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/15-practical-technical-training.jpg",
+      "bytes": 597328,
+      "sha256": "0ec5cf04f0d89e7f5aaf08ad437fd24264e58a36bc70ad6a24074e7f0ea2b9b5",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/04-training-classroom-session.jpg",
+      "bytes": 321494,
+      "sha256": "0024edc0dac984abd35572c6c84e17eaf02bb919f5d4570ab829f8c07271688c",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/01-jmoto-electrician-control-panel.jpg",
+      "bytes": 366902,
+      "sha256": "eb0afe7b806ae2d5cb8bc7a91f9046f40d8d69b50140f26082bc715b8f8a4ebc",
+      "dimensions": [
+        1440,
+        1920
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/17-training-workshop-room-b.jpg",
+      "bytes": 416600,
+      "sha256": "b358b9ef3917183d395ed285acbfe8a0bf15baeebab11b75ca6d1a0b2fbc37f1",
+      "dimensions": [
+        1728,
+        1296
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/09-distribution-board-electrical-work.jpg",
+      "bytes": 381993,
+      "sha256": "ef615a989faa054487e1b5fe2e1a111e6f9c5fbaf011516b09a954d8133dcef3",
+      "dimensions": [
+        1170,
+        1560
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/05-solar-roof-mounting-rails.jpg",
+      "bytes": 663645,
+      "sha256": "05bb807269b4aa6734131f14d3b68c33d095a5fb9dda80a116681671daf8af60",
+      "dimensions": [
+        1170,
+        1560
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/06-solar-panel-testing-rooftop.jpg",
+      "bytes": 647548,
+      "sha256": "f1ee09e63c32619921e5b274936f54e920ad20cb086808ba42b2ea1198d22ed6",
+      "dimensions": [
+        1170,
+        1560
+      ]
+    },
+    {
+      "file": "dist/05_gallery_enhanced_jpg/12-electrical-conduit-construction.jpg",
+      "bytes": 561272,
+      "sha256": "124219ff3663baaac5cb163e864b20816f713b0b9840e18d4b4693bda1dfafd4",
+      "dimensions": [
+        918,
+        1224
+      ]
+    },
+    {
+      "file": "dist/10_previews/mobile-heroes-contact-sheet.jpg",
+      "bytes": 277051,
+      "sha256": "0a4508e9c5ed7eda01ac1107daecfa4570781905dc816ae46e7682e0b50e0c05",
+      "dimensions": [
+        864,
+        1216
+      ]
+    },
+    {
+      "file": "dist/10_previews/desktop-heroes-contact-sheet.jpg",
+      "bytes": 424585,
+      "sha256": "a1ca89c6b91b822ed1ae14bcaacce77f3a12131fb33f26b0913d08fdf0479d26",
+      "dimensions": [
+        1152,
+        1250
+      ]
+    },
+    {
+      "file": "dist/10_previews/shop-category-contact-sheet.jpg",
+      "bytes": 197653,
+      "sha256": "9f7bb0544fae713856cad09c0b13be676ccda9116507d273a38c0678de5a185a",
+      "dimensions": [
+        1500,
+        468
+      ]
+    }
+  ]
+}
