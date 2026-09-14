@@ -128,33 +128,33 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="py-6 border-t border-jmoto-grey">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-white/50">
+        <div className="py-5 border-t border-jmoto-grey/50">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-white/50">
               <a href="tel:+27737928655" className="hover:text-white transition-colors">
                 {t.footer.callZA}: {t.contact.phoneZA}
               </a>
-              <span className="hidden md:inline">|</span>
-              <a href="https://wa.me/27737928655" className="hover:text-white transition-colors">
-                {t.footer.whatsappMZ}: +258 5627 6827
+              <span className="hidden sm:inline text-white/20">|</span>
+              <a href="https://wa.me/25856276827" className="hover:text-white transition-colors">
+                {t.footer.whatsappMZ}: {t.contact.phoneMZ}
               </a>
-              <span className="hidden md:inline">|</span>
+              <span className="hidden sm:inline text-white/20">|</span>
               <a href="mailto:jqmmoto@gmail.com" className="hover:text-white transition-colors">
                 jqmmoto@gmail.com
               </a>
             </div>
-            <p className="text-white/40 text-sm">
+            <p className="text-white/40 text-sm font-display tracking-wide">
               {t.footer.slogan}
             </p>
           </div>
         </div>
 
-        <div className="py-4 border-t border-jmoto-grey/50">
+        <div className="py-4 border-t border-jmoto-grey/30">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
-            <p className="text-center text-white/30 text-xs">
+            <p className="text-white/30 text-xs text-center sm:text-left">
               JMOTO Electrical Services (PTY) Ltd | Enterprise: 2023/694137/07 | IT: 9541573201
             </p>
-            <p className="text-center text-white/30 text-xs">
+            <p className="text-white/30 text-xs text-center sm:text-right">
               Website by <a href="https://stopher-malik.co.za/" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(250,204,21,0.8)]">Stopher Malik</a> &amp; <a href="https://smk.stopher-malik.co.za/" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-300 transition-colors hover:drop-shadow-[0_0_8px_rgba(250,204,21,0.8)]">SMK Web Design</a>
             </p>
           </div>
