@@ -149,7 +149,7 @@ export default function Home() {
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-6 hero-content">
-              <div className="bg-jmoto-black/60 backdrop-blur-sm rounded-2xl p-6 sm:p-8 lg:bg-transparent lg:backdrop-blur-none lg:p-0">
+              <div className="bg-jmoto-black/40 backdrop-blur-[2px] rounded-2xl p-6 sm:p-8 lg:bg-transparent lg:backdrop-blur-none lg:p-0">
                 <div ref={eyebrowRef} className="font-display text-jmoto-red text-sm sm:text-base tracking-[0.2em] mb-6">
                   {t.hero.eyebrow}
                 </div>
