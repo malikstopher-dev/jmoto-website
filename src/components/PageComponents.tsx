@@ -11,13 +11,38 @@ interface PageBannerProps {
   minHeight?: string;
 }
 
-export default function PageBanner({ title, subtitle, image, desktopImage, mobileImage, minHeight = "min-h-[480px] lg:min-h-[540px]" }: PageBannerProps) {
+export default function PageBanner({ title, subtitle, image, desktopImage, mobileImage, minHeight = "min-h-[400px] lg:min-h-[480px]" }: PageBannerProps) {
   const hasDualImages = desktopImage && mobileImage;
 
   return (
     <section className={`relative bg-black overflow-hidden ${minHeight}`}>
       <div className="absolute top-0 left-0 w-96 h-96 bg-jmoto-red/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-64 h-64 bg-jmoto-red/3 rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
+
+      {/* Mobile: full-bleed image behind text */}
+      <div className="lg:hidden absolute inset-0">
+        {hasDualImages ? (
+          <picture>
+            <source media="(max-width: 767px)" srcSet={mobileImage} />
+            <Image
+              src={mobileImage!}
+              alt={title}
+              fill
+              className="object-cover"
+              sizes="100vw"
+            />
+          </picture>
+        ) : image ? (
+          <Image
+            src={image}
+            alt={title}
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+        ) : null}
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/30" />
+      </div>
 
       <div className="relative z-10 h-full flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 lg:py-10">
@@ -36,7 +61,7 @@ export default function PageBanner({ title, subtitle, image, desktopImage, mobil
               </div>
             </div>
 
-            <div className="lg:col-span-7 order-1 lg:order-2">
+            <div className="lg:col-span-7 order-1 lg:order-2 hidden lg:block">
               {(hasDualImages || image) && (
                 <div className="relative max-w-xl mx-auto lg:ml-auto">
                   <div className="absolute -inset-3 bg-gradient-to-r from-jmoto-red/15 to-transparent rounded-3xl blur-xl" />
@@ -56,7 +81,7 @@ export default function PageBanner({ title, subtitle, image, desktopImage, mobil
                             src={desktopImage}
                             alt={title}
                             fill
-                            className="object-contain p-4 lg:p-6"
+                            className="object-cover"
                             sizes="(max-width: 1024px) 100vw, 58vw"
                           />
                         </picture>
@@ -65,7 +90,7 @@ export default function PageBanner({ title, subtitle, image, desktopImage, mobil
                           src={image!}
                           alt={title}
                           fill
-                          className="object-contain p-4 lg:p-6"
+                          className="object-cover"
                           sizes="(max-width: 1024px) 100vw, 58vw"
                         />
                       )}
